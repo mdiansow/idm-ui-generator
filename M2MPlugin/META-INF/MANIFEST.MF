@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: M2MPlugin
+Bundle-SymbolicName: M2MPlugin
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: m2mplugin.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ fr.istic.idm.Questionnaire;bundle-version="1.0.0",
+ fr.istic.idm.Css;bundle-version="1.0.0",
+ PivotMM;bundle-version="0.1.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy

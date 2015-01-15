@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="M2M.loadTest" project="M2MPlugin" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testcase name="loadTest" classname="m2mplugin.M2M" time="2.513"/>
+</testrun>

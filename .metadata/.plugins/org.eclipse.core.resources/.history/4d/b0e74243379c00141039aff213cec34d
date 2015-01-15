@@ -1,0 +1,13 @@
+grammar fr.istic.idm.CssDsl with org.eclipse.xtext.common.Terminals
+
+generate cssDsl "http://www.istic.fr/idm/CssDsl"
+
+Css:
+	'Css ' '{'
+		(css+=Widget)+
+'}'
+;
+
+Widget:
+	widget=ID '=>' STRING
+;

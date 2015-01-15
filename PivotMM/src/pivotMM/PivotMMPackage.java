@@ -1,0 +1,626 @@
+/**
+ */
+package pivotMM;
+
+import org.eclipse.emf.ecore.EAttribute;
+import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.EPackage;
+import org.eclipse.emf.ecore.EReference;
+
+/**
+ * <!-- begin-user-doc -->
+ * The <b>Package</b> for the model.
+ * It contains accessors for the meta objects to represent
+ * <ul>
+ *   <li>each class,</li>
+ *   <li>each feature of each class,</li>
+ *   <li>each operation of each class,</li>
+ *   <li>each enum,</li>
+ *   <li>and each data type</li>
+ * </ul>
+ * <!-- end-user-doc -->
+ * @see pivotMM.PivotMMFactory
+ * @model kind="package"
+ * @generated
+ */
+public interface PivotMMPackage extends EPackage {
+	/**
+	 * The package name.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	String eNAME = "pivotMM";
+
+	/**
+	 * The package namespace URI.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	String eNS_URI = "http://www.istic.fr/idm/PivotMM";
+
+	/**
+	 * The package namespace name.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	String eNS_PREFIX = "pivotMM";
+
+	/**
+	 * The singleton instance of the package.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	PivotMMPackage eINSTANCE = pivotMM.impl.PivotMMPackageImpl.init();
+
+	/**
+	 * The meta object id for the '{@link pivotMM.impl.UiModelImpl <em>Ui Model</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see pivotMM.impl.UiModelImpl
+	 * @see pivotMM.impl.PivotMMPackageImpl#getUiModel()
+	 * @generated
+	 */
+	int UI_MODEL = 0;
+
+	/**
+	 * The feature id for the '<em><b>Widgets</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int UI_MODEL__WIDGETS = 0;
+
+	/**
+	 * The feature id for the '<em><b>Id</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int UI_MODEL__ID = 1;
+
+	/**
+	 * The feature id for the '<em><b>La Question</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int UI_MODEL__LA_QUESTION = 2;
+
+	/**
+	 * The number of structural features of the '<em>Ui Model</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int UI_MODEL_FEATURE_COUNT = 3;
+
+	/**
+	 * The number of operations of the '<em>Ui Model</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int UI_MODEL_OPERATION_COUNT = 0;
+
+	/**
+	 * The meta object id for the '{@link pivotMM.impl.WidgetImpl <em>Widget</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see pivotMM.impl.WidgetImpl
+	 * @see pivotMM.impl.PivotMMPackageImpl#getWidget()
+	 * @generated
+	 */
+	int WIDGET = 1;
+
+	/**
+	 * The feature id for the '<em><b>Value</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WIDGET__VALUE = 0;
+
+	/**
+	 * The number of structural features of the '<em>Widget</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WIDGET_FEATURE_COUNT = 1;
+
+	/**
+	 * The number of operations of the '<em>Widget</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int WIDGET_OPERATION_COUNT = 0;
+
+	/**
+	 * The meta object id for the '{@link pivotMM.impl.CheckBoxImpl <em>Check Box</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see pivotMM.impl.CheckBoxImpl
+	 * @see pivotMM.impl.PivotMMPackageImpl#getCheckBox()
+	 * @generated
+	 */
+	int CHECK_BOX = 2;
+
+	/**
+	 * The feature id for the '<em><b>Value</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CHECK_BOX__VALUE = WIDGET__VALUE;
+
+	/**
+	 * The number of structural features of the '<em>Check Box</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CHECK_BOX_FEATURE_COUNT = WIDGET_FEATURE_COUNT + 0;
+
+	/**
+	 * The number of operations of the '<em>Check Box</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CHECK_BOX_OPERATION_COUNT = WIDGET_OPERATION_COUNT + 0;
+
+	/**
+	 * The meta object id for the '{@link pivotMM.impl.RadioButtonImpl <em>Radio Button</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see pivotMM.impl.RadioButtonImpl
+	 * @see pivotMM.impl.PivotMMPackageImpl#getRadioButton()
+	 * @generated
+	 */
+	int RADIO_BUTTON = 3;
+
+	/**
+	 * The feature id for the '<em><b>Value</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int RADIO_BUTTON__VALUE = WIDGET__VALUE;
+
+	/**
+	 * The number of structural features of the '<em>Radio Button</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int RADIO_BUTTON_FEATURE_COUNT = WIDGET_FEATURE_COUNT + 0;
+
+	/**
+	 * The number of operations of the '<em>Radio Button</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int RADIO_BUTTON_OPERATION_COUNT = WIDGET_OPERATION_COUNT + 0;
+
+	/**
+	 * The meta object id for the '{@link pivotMM.impl.TextFieldImpl <em>Text Field</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see pivotMM.impl.TextFieldImpl
+	 * @see pivotMM.impl.PivotMMPackageImpl#getTextField()
+	 * @generated
+	 */
+	int TEXT_FIELD = 4;
+
+	/**
+	 * The feature id for the '<em><b>Value</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TEXT_FIELD__VALUE = WIDGET__VALUE;
+
+	/**
+	 * The number of structural features of the '<em>Text Field</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TEXT_FIELD_FEATURE_COUNT = WIDGET_FEATURE_COUNT + 0;
+
+	/**
+	 * The number of operations of the '<em>Text Field</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TEXT_FIELD_OPERATION_COUNT = WIDGET_OPERATION_COUNT + 0;
+
+	/**
+	 * The meta object id for the '{@link pivotMM.impl.ComboBoxImpl <em>Combo Box</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see pivotMM.impl.ComboBoxImpl
+	 * @see pivotMM.impl.PivotMMPackageImpl#getComboBox()
+	 * @generated
+	 */
+	int COMBO_BOX = 5;
+
+	/**
+	 * The feature id for the '<em><b>Value</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int COMBO_BOX__VALUE = WIDGET__VALUE;
+
+	/**
+	 * The number of structural features of the '<em>Combo Box</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int COMBO_BOX_FEATURE_COUNT = WIDGET_FEATURE_COUNT + 0;
+
+	/**
+	 * The number of operations of the '<em>Combo Box</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int COMBO_BOX_OPERATION_COUNT = WIDGET_OPERATION_COUNT + 0;
+
+
+	/**
+	 * The meta object id for the '{@link pivotMM.impl.PollSystemImpl <em>Poll System</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see pivotMM.impl.PollSystemImpl
+	 * @see pivotMM.impl.PivotMMPackageImpl#getPollSystem()
+	 * @generated
+	 */
+	int POLL_SYSTEM = 6;
+
+	/**
+	 * The feature id for the '<em><b>Models</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int POLL_SYSTEM__MODELS = 0;
+
+	/**
+	 * The feature id for the '<em><b>Title</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int POLL_SYSTEM__TITLE = 1;
+
+	/**
+	 * The number of structural features of the '<em>Poll System</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int POLL_SYSTEM_FEATURE_COUNT = 2;
+
+	/**
+	 * The number of operations of the '<em>Poll System</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int POLL_SYSTEM_OPERATION_COUNT = 0;
+
+
+	/**
+	 * Returns the meta object for class '{@link pivotMM.UiModel <em>Ui Model</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Ui Model</em>'.
+	 * @see pivotMM.UiModel
+	 * @generated
+	 */
+	EClass getUiModel();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link pivotMM.UiModel#getWidgets <em>Widgets</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>Widgets</em>'.
+	 * @see pivotMM.UiModel#getWidgets()
+	 * @see #getUiModel()
+	 * @generated
+	 */
+	EReference getUiModel_Widgets();
+
+	/**
+	 * Returns the meta object for the attribute '{@link pivotMM.UiModel#getId <em>Id</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Id</em>'.
+	 * @see pivotMM.UiModel#getId()
+	 * @see #getUiModel()
+	 * @generated
+	 */
+	EAttribute getUiModel_Id();
+
+	/**
+	 * Returns the meta object for the attribute '{@link pivotMM.UiModel#getLaQuestion <em>La Question</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>La Question</em>'.
+	 * @see pivotMM.UiModel#getLaQuestion()
+	 * @see #getUiModel()
+	 * @generated
+	 */
+	EAttribute getUiModel_LaQuestion();
+
+	/**
+	 * Returns the meta object for class '{@link pivotMM.Widget <em>Widget</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Widget</em>'.
+	 * @see pivotMM.Widget
+	 * @generated
+	 */
+	EClass getWidget();
+
+	/**
+	 * Returns the meta object for the attribute '{@link pivotMM.Widget#getValue <em>Value</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Value</em>'.
+	 * @see pivotMM.Widget#getValue()
+	 * @see #getWidget()
+	 * @generated
+	 */
+	EAttribute getWidget_Value();
+
+	/**
+	 * Returns the meta object for class '{@link pivotMM.CheckBox <em>Check Box</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Check Box</em>'.
+	 * @see pivotMM.CheckBox
+	 * @generated
+	 */
+	EClass getCheckBox();
+
+	/**
+	 * Returns the meta object for class '{@link pivotMM.RadioButton <em>Radio Button</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Radio Button</em>'.
+	 * @see pivotMM.RadioButton
+	 * @generated
+	 */
+	EClass getRadioButton();
+
+	/**
+	 * Returns the meta object for class '{@link pivotMM.TextField <em>Text Field</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Text Field</em>'.
+	 * @see pivotMM.TextField
+	 * @generated
+	 */
+	EClass getTextField();
+
+	/**
+	 * Returns the meta object for class '{@link pivotMM.ComboBox <em>Combo Box</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Combo Box</em>'.
+	 * @see pivotMM.ComboBox
+	 * @generated
+	 */
+	EClass getComboBox();
+
+	/**
+	 * Returns the meta object for class '{@link pivotMM.PollSystem <em>Poll System</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Poll System</em>'.
+	 * @see pivotMM.PollSystem
+	 * @generated
+	 */
+	EClass getPollSystem();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link pivotMM.PollSystem#getModels <em>Models</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>Models</em>'.
+	 * @see pivotMM.PollSystem#getModels()
+	 * @see #getPollSystem()
+	 * @generated
+	 */
+	EReference getPollSystem_Models();
+
+	/**
+	 * Returns the meta object for the attribute '{@link pivotMM.PollSystem#getTitle <em>Title</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Title</em>'.
+	 * @see pivotMM.PollSystem#getTitle()
+	 * @see #getPollSystem()
+	 * @generated
+	 */
+	EAttribute getPollSystem_Title();
+
+	/**
+	 * Returns the factory that creates the instances of the model.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the factory that creates the instances of the model.
+	 * @generated
+	 */
+	PivotMMFactory getPivotMMFactory();
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * Defines literals for the meta objects that represent
+	 * <ul>
+	 *   <li>each class,</li>
+	 *   <li>each feature of each class,</li>
+	 *   <li>each operation of each class,</li>
+	 *   <li>each enum,</li>
+	 *   <li>and each data type</li>
+	 * </ul>
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	interface Literals {
+		/**
+		 * The meta object literal for the '{@link pivotMM.impl.UiModelImpl <em>Ui Model</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see pivotMM.impl.UiModelImpl
+		 * @see pivotMM.impl.PivotMMPackageImpl#getUiModel()
+		 * @generated
+		 */
+		EClass UI_MODEL = eINSTANCE.getUiModel();
+
+		/**
+		 * The meta object literal for the '<em><b>Widgets</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference UI_MODEL__WIDGETS = eINSTANCE.getUiModel_Widgets();
+
+		/**
+		 * The meta object literal for the '<em><b>Id</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute UI_MODEL__ID = eINSTANCE.getUiModel_Id();
+
+		/**
+		 * The meta object literal for the '<em><b>La Question</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute UI_MODEL__LA_QUESTION = eINSTANCE.getUiModel_LaQuestion();
+
+		/**
+		 * The meta object literal for the '{@link pivotMM.impl.WidgetImpl <em>Widget</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see pivotMM.impl.WidgetImpl
+		 * @see pivotMM.impl.PivotMMPackageImpl#getWidget()
+		 * @generated
+		 */
+		EClass WIDGET = eINSTANCE.getWidget();
+
+		/**
+		 * The meta object literal for the '<em><b>Value</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute WIDGET__VALUE = eINSTANCE.getWidget_Value();
+
+		/**
+		 * The meta object literal for the '{@link pivotMM.impl.CheckBoxImpl <em>Check Box</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see pivotMM.impl.CheckBoxImpl
+		 * @see pivotMM.impl.PivotMMPackageImpl#getCheckBox()
+		 * @generated
+		 */
+		EClass CHECK_BOX = eINSTANCE.getCheckBox();
+
+		/**
+		 * The meta object literal for the '{@link pivotMM.impl.RadioButtonImpl <em>Radio Button</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see pivotMM.impl.RadioButtonImpl
+		 * @see pivotMM.impl.PivotMMPackageImpl#getRadioButton()
+		 * @generated
+		 */
+		EClass RADIO_BUTTON = eINSTANCE.getRadioButton();
+
+		/**
+		 * The meta object literal for the '{@link pivotMM.impl.TextFieldImpl <em>Text Field</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see pivotMM.impl.TextFieldImpl
+		 * @see pivotMM.impl.PivotMMPackageImpl#getTextField()
+		 * @generated
+		 */
+		EClass TEXT_FIELD = eINSTANCE.getTextField();
+
+		/**
+		 * The meta object literal for the '{@link pivotMM.impl.ComboBoxImpl <em>Combo Box</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see pivotMM.impl.ComboBoxImpl
+		 * @see pivotMM.impl.PivotMMPackageImpl#getComboBox()
+		 * @generated
+		 */
+		EClass COMBO_BOX = eINSTANCE.getComboBox();
+
+		/**
+		 * The meta object literal for the '{@link pivotMM.impl.PollSystemImpl <em>Poll System</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see pivotMM.impl.PollSystemImpl
+		 * @see pivotMM.impl.PivotMMPackageImpl#getPollSystem()
+		 * @generated
+		 */
+		EClass POLL_SYSTEM = eINSTANCE.getPollSystem();
+
+		/**
+		 * The meta object literal for the '<em><b>Models</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference POLL_SYSTEM__MODELS = eINSTANCE.getPollSystem_Models();
+
+		/**
+		 * The meta object literal for the '<em><b>Title</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute POLL_SYSTEM__TITLE = eINSTANCE.getPollSystem_Title();
+
+	}
+
+} //PivotMMPackage

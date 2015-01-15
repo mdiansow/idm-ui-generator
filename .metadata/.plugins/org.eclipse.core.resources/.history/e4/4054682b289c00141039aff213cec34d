@@ -1,0 +1,44 @@
+package m2mplugin
+
+import fr.istic.idm.CssDslStandaloneSetupGenerated
+import fr.istic.idm.QuestionnaireDslStandaloneSetupGenerated
+import fr.istic.idm.cssDsl.Css
+import fr.istic.idm.questionnaireDsl.Sondage
+import org.eclipse.emf.common.util.URI
+import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl
+import org.junit.Test
+
+import static org.junit.Assert.*
+
+class M2M {
+	def loadQuestionnaireDsl(URI uri) {
+		new QuestionnaireDslStandaloneSetupGenerated().createInjectorAndDoEMFRegistration()
+		var res = new ResourceSetImpl().getResource(uri, true);
+		res.contents.get(0) as Sondage
+	}
+
+	def loadCssDsl(URI uri) {
+		new CssDslStandaloneSetupGenerated().createInjectorAndDoEMFRegistration()
+		var res = new ResourceSetImpl().getResource(uri, true)
+		res.contents.get(0) as Css
+	}
+	
+	def savePollSystem(URI uri,  pollS) {
+		var Resource rs = new ResourceSetImpl().createResource(uri); 
+		rs.getContents.add(pollS); 
+		rs.save(new HashMap());
+	}
+
+	@Test
+	def void loadTest() {
+		var q = loadQuestionnaireDsl(URI.createURI("sample.q"))
+		assertNotNull(q)
+
+		var css = loadCssDsl(URI.createURI("sample.css"));
+		assertNotNull(css);
+		var string = css.css.get(0);
+
+		q.sondage.get(0).questionnaire.forEach[p|println("Question " + p.name)]
+		println(string.widget)
+	}
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<pivotMM:PollSystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pivotMM="http://www.istic.fr/idm/PivotMM" title="poll1">
+  <models id="A" laQuestion="What is A?">
+    <widgets xsi:type="pivotMM:CheckBox" value="B"/>
+    <widgets xsi:type="pivotMM:CheckBox" value="C"/>
+    <widgets xsi:type="pivotMM:CheckBox" value="D"/>
+  </models>
+  <models id="B" laQuestion="What is C?">
+    <widgets xsi:type="pivotMM:TextField" value="E"/>
+    <widgets xsi:type="pivotMM:TextField" value="F"/>
+  </models>
+</pivotMM:PollSystem>

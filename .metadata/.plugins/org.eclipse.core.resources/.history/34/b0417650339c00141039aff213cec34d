@@ -1,0 +1,68 @@
+package m2mplugin
+
+import fr.istic.idm.CssDslStandaloneSetupGenerated
+import fr.istic.idm.QuestionnaireDslStandaloneSetupGenerated
+import fr.istic.idm.cssDsl.Css
+import fr.istic.idm.questionnaireDsl.Sondage
+import org.eclipse.emf.common.util.URI
+import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl
+import org.junit.Test
+
+import static org.junit.Assert.*
+import java.util.HashMap
+import org.eclipse.emf.ecore.resource.Resource
+import fr.istic.idm.questionnaireDsl.Questionnaire
+import fr.istic.idm.cssDsl.impl.CssImpl
+import fr.istic.idm.cssDsl.impl.WidgetImpl
+import fr.istic.idm.cssDsl.impl.CssDslFactoryImpl
+import pivotMM.impl.PivotMMFactoryImpl
+
+class M2M {
+	def loadQuestionnaireDsl(URI uri) {
+		new QuestionnaireDslStandaloneSetupGenerated().createInjectorAndDoEMFRegistration()
+		var res = new ResourceSetImpl().getResource(uri, true);
+		res.contents.get(0) as Sondage
+	}
+
+	def loadCssDsl(URI uri) {
+		new CssDslStandaloneSetupGenerated().createInjectorAndDoEMFRegistration()
+		var res = new ResourceSetImpl().getResource(uri, true)
+		res.contents.get(0) as Css
+	}
+
+	def savePollSystem(URI uri, Questionnaire pollS) {
+		var Resource rs = new ResourceSetImpl().createResource(uri);
+		rs.getContents.add(pollS);
+		rs.save(new HashMap());
+	}
+
+	@Test
+	def void loadTest() {
+		var q = loadQuestionnaireDsl(URI.createURI("sample.q"))
+		assertNotNull(q)
+
+		var css = loadCssDsl(URI.createURI("sample.css"));
+		assertNotNull(css);
+
+		var model = new PivotMMFactoryImpl
+		val modelImpl = model.createUiModel
+		modelImpl.label = "Mon Questionnaire"
+		
+		q.sondage.forEach[monQ | println("Questionnaire  " + monQ.name)]
+		
+		//check.var string = css.css.get(0);
+
+		var Css myCss = new CssImpl()
+
+		val monCss = new CssDslFactoryImpl
+		val v = monCss.createCss
+		val monCh = monCss.createWidget
+		monCh.setWidget("Check")
+		v.css.add(monCh)
+
+		myCss.css
+
+		q.sondage.get(0).questionnaire.forEach[p|println("Question " + p.name)]
+		println(v.css.get(0).widget)
+	}
+}

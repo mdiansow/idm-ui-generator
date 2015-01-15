@@ -1,0 +1,4 @@
+Css {
+	A => "CheckBox"
+	B => "ButtonRadio"
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated PivotMM -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="pivotMM.presentation.PivotMMModelWizardID"
+            name="%_UI_PivotMMModelWizard_label"
+            class="pivotMM.presentation.PivotMMModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/PivotMMModelFile.gif">
+         <description>%_UI_PivotMMModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated PivotMM -->
+      <editor
+            id="pivotMM.presentation.PivotMMEditorID"
+            name="%_UI_PivotMMEditor_label"
+            icon="icons/full/obj16/PivotMMModelFile.gif"
+            extensions="pivotmm"
+            class="pivotMM.presentation.PivotMMEditor"
+            contributorClass="pivotMM.presentation.PivotMMActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ASCII"?>
+<pivotMM:UiModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pivotMM="http://www.istic.fr/idm/PivotMM" label="Mon Questionnaire">
+  <widgets xsi:type="pivotMM:CheckBox" value="Bonjour"/>
+</pivotMM:UiModel>
