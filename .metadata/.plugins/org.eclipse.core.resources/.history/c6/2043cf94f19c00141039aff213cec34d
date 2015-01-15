@@ -1,0 +1,9 @@
+grammar fr.istic.idm.QuestionnaireDsl with org.eclipse.xtext.common.Terminals
+
+generate questionnaireDsl "http://www.istic.fr/idm/QuestionnaireDsl"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Hello' name=ID '!';

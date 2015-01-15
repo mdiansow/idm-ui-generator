@@ -98,13 +98,13 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
             // ../fr.istic.idm.PivotMM/src-gen/fr/istic/idm/parser/antlr/internal/InternalPivotMMDsl.g:69:2: iv_rulePollSystem= rulePollSystem EOF
             {
              newCompositeNode(grammarAccess.getPollSystemRule()); 
-            pushFollow(FollowSets000.FOLLOW_rulePollSystem_in_entryRulePollSystem75);
+            pushFollow(FOLLOW_rulePollSystem_in_entryRulePollSystem75);
             iv_rulePollSystem=rulePollSystem();
 
             state._fsp--;
 
              current =iv_rulePollSystem; 
-            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRulePollSystem85); 
+            match(input,EOF,FOLLOW_EOF_in_entryRulePollSystem85); 
 
             }
 
@@ -161,11 +161,11 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
 
             }
 
-            otherlv_1=(Token)match(input,11,FollowSets000.FOLLOW_11_in_rulePollSystem131); 
+            otherlv_1=(Token)match(input,11,FOLLOW_11_in_rulePollSystem131); 
 
                 	newLeafNode(otherlv_1, grammarAccess.getPollSystemAccess().getPollSystemKeyword_1());
                 
-            otherlv_2=(Token)match(input,12,FollowSets000.FOLLOW_12_in_rulePollSystem143); 
+            otherlv_2=(Token)match(input,12,FOLLOW_12_in_rulePollSystem143); 
 
                 	newLeafNode(otherlv_2, grammarAccess.getPollSystemAccess().getLeftCurlyBracketKeyword_2());
                 
@@ -180,7 +180,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                 case 1 :
                     // ../fr.istic.idm.PivotMM/src-gen/fr/istic/idm/parser/antlr/internal/InternalPivotMMDsl.g:94:3: otherlv_3= 'title' ( (lv_title_4_0= ruleEString ) )
                     {
-                    otherlv_3=(Token)match(input,13,FollowSets000.FOLLOW_13_in_rulePollSystem156); 
+                    otherlv_3=(Token)match(input,13,FOLLOW_13_in_rulePollSystem156); 
 
                         	newLeafNode(otherlv_3, grammarAccess.getPollSystemAccess().getTitleKeyword_3_0());
                         
@@ -193,7 +193,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                      
                     	        newCompositeNode(grammarAccess.getPollSystemAccess().getTitleEStringParserRuleCall_3_1_0()); 
                     	    
-                    pushFollow(FollowSets000.FOLLOW_ruleEString_in_rulePollSystem177);
+                    pushFollow(FOLLOW_ruleEString_in_rulePollSystem177);
                     lv_title_4_0=ruleEString();
 
                     state._fsp--;
@@ -232,11 +232,11 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                 case 1 :
                     // ../fr.istic.idm.PivotMM/src-gen/fr/istic/idm/parser/antlr/internal/InternalPivotMMDsl.g:116:6: otherlv_5= 'models' otherlv_6= '{' ( (lv_models_7_0= ruleUiModel ) ) (otherlv_8= ',' ( (lv_models_9_0= ruleUiModel ) ) )* otherlv_10= '}'
                     {
-                    otherlv_5=(Token)match(input,14,FollowSets000.FOLLOW_14_in_rulePollSystem192); 
+                    otherlv_5=(Token)match(input,14,FOLLOW_14_in_rulePollSystem192); 
 
                         	newLeafNode(otherlv_5, grammarAccess.getPollSystemAccess().getModelsKeyword_4_0());
                         
-                    otherlv_6=(Token)match(input,12,FollowSets000.FOLLOW_12_in_rulePollSystem204); 
+                    otherlv_6=(Token)match(input,12,FOLLOW_12_in_rulePollSystem204); 
 
                         	newLeafNode(otherlv_6, grammarAccess.getPollSystemAccess().getLeftCurlyBracketKeyword_4_1());
                         
@@ -249,7 +249,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                      
                     	        newCompositeNode(grammarAccess.getPollSystemAccess().getModelsUiModelParserRuleCall_4_2_0()); 
                     	    
-                    pushFollow(FollowSets000.FOLLOW_ruleUiModel_in_rulePollSystem225);
+                    pushFollow(FOLLOW_ruleUiModel_in_rulePollSystem225);
                     lv_models_7_0=ruleUiModel();
 
                     state._fsp--;
@@ -286,7 +286,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                     	case 1 :
                     	    // ../fr.istic.idm.PivotMM/src-gen/fr/istic/idm/parser/antlr/internal/InternalPivotMMDsl.g:142:4: otherlv_8= ',' ( (lv_models_9_0= ruleUiModel ) )
                     	    {
-                    	    otherlv_8=(Token)match(input,15,FollowSets000.FOLLOW_15_in_rulePollSystem238); 
+                    	    otherlv_8=(Token)match(input,15,FOLLOW_15_in_rulePollSystem238); 
 
                     	        	newLeafNode(otherlv_8, grammarAccess.getPollSystemAccess().getCommaKeyword_4_3_0());
                     	        
@@ -299,7 +299,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                     	     
                     	    	        newCompositeNode(grammarAccess.getPollSystemAccess().getModelsUiModelParserRuleCall_4_3_1_0()); 
                     	    	    
-                    	    pushFollow(FollowSets000.FOLLOW_ruleUiModel_in_rulePollSystem259);
+                    	    pushFollow(FOLLOW_ruleUiModel_in_rulePollSystem259);
                     	    lv_models_9_0=ruleUiModel();
 
                     	    state._fsp--;
@@ -330,7 +330,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                         }
                     } while (true);
 
-                    otherlv_10=(Token)match(input,16,FollowSets000.FOLLOW_16_in_rulePollSystem273); 
+                    otherlv_10=(Token)match(input,16,FOLLOW_16_in_rulePollSystem273); 
 
                         	newLeafNode(otherlv_10, grammarAccess.getPollSystemAccess().getRightCurlyBracketKeyword_4_4());
                         
@@ -340,7 +340,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
 
             }
 
-            otherlv_11=(Token)match(input,16,FollowSets000.FOLLOW_16_in_rulePollSystem287); 
+            otherlv_11=(Token)match(input,16,FOLLOW_16_in_rulePollSystem287); 
 
                 	newLeafNode(otherlv_11, grammarAccess.getPollSystemAccess().getRightCurlyBracketKeyword_5());
                 
@@ -377,13 +377,13 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
             // ../fr.istic.idm.PivotMM/src-gen/fr/istic/idm/parser/antlr/internal/InternalPivotMMDsl.g:182:2: iv_ruleWidget= ruleWidget EOF
             {
              newCompositeNode(grammarAccess.getWidgetRule()); 
-            pushFollow(FollowSets000.FOLLOW_ruleWidget_in_entryRuleWidget323);
+            pushFollow(FOLLOW_ruleWidget_in_entryRuleWidget323);
             iv_ruleWidget=ruleWidget();
 
             state._fsp--;
 
              current =iv_ruleWidget; 
-            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleWidget333); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleWidget333); 
 
             }
 
@@ -457,7 +457,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                      
                             newCompositeNode(grammarAccess.getWidgetAccess().getCheckBoxParserRuleCall_0()); 
                         
-                    pushFollow(FollowSets000.FOLLOW_ruleCheckBox_in_ruleWidget380);
+                    pushFollow(FOLLOW_ruleCheckBox_in_ruleWidget380);
                     this_CheckBox_0=ruleCheckBox();
 
                     state._fsp--;
@@ -475,7 +475,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                      
                             newCompositeNode(grammarAccess.getWidgetAccess().getRadioButtonParserRuleCall_1()); 
                         
-                    pushFollow(FollowSets000.FOLLOW_ruleRadioButton_in_ruleWidget407);
+                    pushFollow(FOLLOW_ruleRadioButton_in_ruleWidget407);
                     this_RadioButton_1=ruleRadioButton();
 
                     state._fsp--;
@@ -493,7 +493,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                      
                             newCompositeNode(grammarAccess.getWidgetAccess().getTextFieldParserRuleCall_2()); 
                         
-                    pushFollow(FollowSets000.FOLLOW_ruleTextField_in_ruleWidget434);
+                    pushFollow(FOLLOW_ruleTextField_in_ruleWidget434);
                     this_TextField_2=ruleTextField();
 
                     state._fsp--;
@@ -511,7 +511,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                      
                             newCompositeNode(grammarAccess.getWidgetAccess().getComboBoxParserRuleCall_3()); 
                         
-                    pushFollow(FollowSets000.FOLLOW_ruleComboBox_in_ruleWidget461);
+                    pushFollow(FOLLOW_ruleComboBox_in_ruleWidget461);
                     this_ComboBox_3=ruleComboBox();
 
                     state._fsp--;
@@ -556,13 +556,13 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
             // ../fr.istic.idm.PivotMM/src-gen/fr/istic/idm/parser/antlr/internal/InternalPivotMMDsl.g:242:2: iv_ruleUiModel= ruleUiModel EOF
             {
              newCompositeNode(grammarAccess.getUiModelRule()); 
-            pushFollow(FollowSets000.FOLLOW_ruleUiModel_in_entryRuleUiModel496);
+            pushFollow(FOLLOW_ruleUiModel_in_entryRuleUiModel496);
             iv_ruleUiModel=ruleUiModel();
 
             state._fsp--;
 
              current =iv_ruleUiModel; 
-            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleUiModel506); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleUiModel506); 
 
             }
 
@@ -622,11 +622,11 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
 
             }
 
-            otherlv_1=(Token)match(input,17,FollowSets000.FOLLOW_17_in_ruleUiModel552); 
+            otherlv_1=(Token)match(input,17,FOLLOW_17_in_ruleUiModel552); 
 
                 	newLeafNode(otherlv_1, grammarAccess.getUiModelAccess().getUiModelKeyword_1());
                 
-            otherlv_2=(Token)match(input,12,FollowSets000.FOLLOW_12_in_ruleUiModel564); 
+            otherlv_2=(Token)match(input,12,FOLLOW_12_in_ruleUiModel564); 
 
                 	newLeafNode(otherlv_2, grammarAccess.getUiModelAccess().getLeftCurlyBracketKeyword_2());
                 
@@ -641,7 +641,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                 case 1 :
                     // ../fr.istic.idm.PivotMM/src-gen/fr/istic/idm/parser/antlr/internal/InternalPivotMMDsl.g:267:3: otherlv_3= 'id' ( (lv_id_4_0= ruleEString ) )
                     {
-                    otherlv_3=(Token)match(input,18,FollowSets000.FOLLOW_18_in_ruleUiModel577); 
+                    otherlv_3=(Token)match(input,18,FOLLOW_18_in_ruleUiModel577); 
 
                         	newLeafNode(otherlv_3, grammarAccess.getUiModelAccess().getIdKeyword_3_0());
                         
@@ -654,7 +654,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                      
                     	        newCompositeNode(grammarAccess.getUiModelAccess().getIdEStringParserRuleCall_3_1_0()); 
                     	    
-                    pushFollow(FollowSets000.FOLLOW_ruleEString_in_ruleUiModel598);
+                    pushFollow(FOLLOW_ruleEString_in_ruleUiModel598);
                     lv_id_4_0=ruleEString();
 
                     state._fsp--;
@@ -693,7 +693,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                 case 1 :
                     // ../fr.istic.idm.PivotMM/src-gen/fr/istic/idm/parser/antlr/internal/InternalPivotMMDsl.g:289:6: otherlv_5= 'laQuestion' ( (lv_laQuestion_6_0= ruleEString ) )
                     {
-                    otherlv_5=(Token)match(input,19,FollowSets000.FOLLOW_19_in_ruleUiModel613); 
+                    otherlv_5=(Token)match(input,19,FOLLOW_19_in_ruleUiModel613); 
 
                         	newLeafNode(otherlv_5, grammarAccess.getUiModelAccess().getLaQuestionKeyword_4_0());
                         
@@ -706,7 +706,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                      
                     	        newCompositeNode(grammarAccess.getUiModelAccess().getLaQuestionEStringParserRuleCall_4_1_0()); 
                     	    
-                    pushFollow(FollowSets000.FOLLOW_ruleEString_in_ruleUiModel634);
+                    pushFollow(FOLLOW_ruleEString_in_ruleUiModel634);
                     lv_laQuestion_6_0=ruleEString();
 
                     state._fsp--;
@@ -745,11 +745,11 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                 case 1 :
                     // ../fr.istic.idm.PivotMM/src-gen/fr/istic/idm/parser/antlr/internal/InternalPivotMMDsl.g:311:6: otherlv_7= 'widgets' otherlv_8= '{' ( (lv_widgets_9_0= ruleWidget ) ) (otherlv_10= ',' ( (lv_widgets_11_0= ruleWidget ) ) )* otherlv_12= '}'
                     {
-                    otherlv_7=(Token)match(input,20,FollowSets000.FOLLOW_20_in_ruleUiModel649); 
+                    otherlv_7=(Token)match(input,20,FOLLOW_20_in_ruleUiModel649); 
 
                         	newLeafNode(otherlv_7, grammarAccess.getUiModelAccess().getWidgetsKeyword_5_0());
                         
-                    otherlv_8=(Token)match(input,12,FollowSets000.FOLLOW_12_in_ruleUiModel661); 
+                    otherlv_8=(Token)match(input,12,FOLLOW_12_in_ruleUiModel661); 
 
                         	newLeafNode(otherlv_8, grammarAccess.getUiModelAccess().getLeftCurlyBracketKeyword_5_1());
                         
@@ -762,7 +762,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                      
                     	        newCompositeNode(grammarAccess.getUiModelAccess().getWidgetsWidgetParserRuleCall_5_2_0()); 
                     	    
-                    pushFollow(FollowSets000.FOLLOW_ruleWidget_in_ruleUiModel682);
+                    pushFollow(FOLLOW_ruleWidget_in_ruleUiModel682);
                     lv_widgets_9_0=ruleWidget();
 
                     state._fsp--;
@@ -799,7 +799,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                     	case 1 :
                     	    // ../fr.istic.idm.PivotMM/src-gen/fr/istic/idm/parser/antlr/internal/InternalPivotMMDsl.g:337:4: otherlv_10= ',' ( (lv_widgets_11_0= ruleWidget ) )
                     	    {
-                    	    otherlv_10=(Token)match(input,15,FollowSets000.FOLLOW_15_in_ruleUiModel695); 
+                    	    otherlv_10=(Token)match(input,15,FOLLOW_15_in_ruleUiModel695); 
 
                     	        	newLeafNode(otherlv_10, grammarAccess.getUiModelAccess().getCommaKeyword_5_3_0());
                     	        
@@ -812,7 +812,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                     	     
                     	    	        newCompositeNode(grammarAccess.getUiModelAccess().getWidgetsWidgetParserRuleCall_5_3_1_0()); 
                     	    	    
-                    	    pushFollow(FollowSets000.FOLLOW_ruleWidget_in_ruleUiModel716);
+                    	    pushFollow(FOLLOW_ruleWidget_in_ruleUiModel716);
                     	    lv_widgets_11_0=ruleWidget();
 
                     	    state._fsp--;
@@ -843,7 +843,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                         }
                     } while (true);
 
-                    otherlv_12=(Token)match(input,16,FollowSets000.FOLLOW_16_in_ruleUiModel730); 
+                    otherlv_12=(Token)match(input,16,FOLLOW_16_in_ruleUiModel730); 
 
                         	newLeafNode(otherlv_12, grammarAccess.getUiModelAccess().getRightCurlyBracketKeyword_5_4());
                         
@@ -853,7 +853,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
 
             }
 
-            otherlv_13=(Token)match(input,16,FollowSets000.FOLLOW_16_in_ruleUiModel744); 
+            otherlv_13=(Token)match(input,16,FOLLOW_16_in_ruleUiModel744); 
 
                 	newLeafNode(otherlv_13, grammarAccess.getUiModelAccess().getRightCurlyBracketKeyword_6());
                 
@@ -890,13 +890,13 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
             // ../fr.istic.idm.PivotMM/src-gen/fr/istic/idm/parser/antlr/internal/InternalPivotMMDsl.g:377:2: iv_ruleEString= ruleEString EOF
             {
              newCompositeNode(grammarAccess.getEStringRule()); 
-            pushFollow(FollowSets000.FOLLOW_ruleEString_in_entryRuleEString781);
+            pushFollow(FOLLOW_ruleEString_in_entryRuleEString781);
             iv_ruleEString=ruleEString();
 
             state._fsp--;
 
              current =iv_ruleEString.getText(); 
-            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleEString792); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleEString792); 
 
             }
 
@@ -947,7 +947,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                 case 1 :
                     // ../fr.istic.idm.PivotMM/src-gen/fr/istic/idm/parser/antlr/internal/InternalPivotMMDsl.g:388:6: this_STRING_0= RULE_STRING
                     {
-                    this_STRING_0=(Token)match(input,RULE_STRING,FollowSets000.FOLLOW_RULE_STRING_in_ruleEString832); 
+                    this_STRING_0=(Token)match(input,RULE_STRING,FOLLOW_RULE_STRING_in_ruleEString832); 
 
                     		current.merge(this_STRING_0);
                         
@@ -960,7 +960,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                 case 2 :
                     // ../fr.istic.idm.PivotMM/src-gen/fr/istic/idm/parser/antlr/internal/InternalPivotMMDsl.g:396:10: this_ID_1= RULE_ID
                     {
-                    this_ID_1=(Token)match(input,RULE_ID,FollowSets000.FOLLOW_RULE_ID_in_ruleEString858); 
+                    this_ID_1=(Token)match(input,RULE_ID,FOLLOW_RULE_ID_in_ruleEString858); 
 
                     		current.merge(this_ID_1);
                         
@@ -1003,13 +1003,13 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
             // ../fr.istic.idm.PivotMM/src-gen/fr/istic/idm/parser/antlr/internal/InternalPivotMMDsl.g:413:2: iv_ruleCheckBox= ruleCheckBox EOF
             {
              newCompositeNode(grammarAccess.getCheckBoxRule()); 
-            pushFollow(FollowSets000.FOLLOW_ruleCheckBox_in_entryRuleCheckBox903);
+            pushFollow(FOLLOW_ruleCheckBox_in_entryRuleCheckBox903);
             iv_ruleCheckBox=ruleCheckBox();
 
             state._fsp--;
 
              current =iv_ruleCheckBox; 
-            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleCheckBox913); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleCheckBox913); 
 
             }
 
@@ -1058,11 +1058,11 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
 
             }
 
-            otherlv_1=(Token)match(input,21,FollowSets000.FOLLOW_21_in_ruleCheckBox959); 
+            otherlv_1=(Token)match(input,21,FOLLOW_21_in_ruleCheckBox959); 
 
                 	newLeafNode(otherlv_1, grammarAccess.getCheckBoxAccess().getCheckBoxKeyword_1());
                 
-            otherlv_2=(Token)match(input,12,FollowSets000.FOLLOW_12_in_ruleCheckBox971); 
+            otherlv_2=(Token)match(input,12,FOLLOW_12_in_ruleCheckBox971); 
 
                 	newLeafNode(otherlv_2, grammarAccess.getCheckBoxAccess().getLeftCurlyBracketKeyword_2());
                 
@@ -1077,7 +1077,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                 case 1 :
                     // ../fr.istic.idm.PivotMM/src-gen/fr/istic/idm/parser/antlr/internal/InternalPivotMMDsl.g:438:3: otherlv_3= 'value' ( (lv_value_4_0= ruleEString ) )
                     {
-                    otherlv_3=(Token)match(input,22,FollowSets000.FOLLOW_22_in_ruleCheckBox984); 
+                    otherlv_3=(Token)match(input,22,FOLLOW_22_in_ruleCheckBox984); 
 
                         	newLeafNode(otherlv_3, grammarAccess.getCheckBoxAccess().getValueKeyword_3_0());
                         
@@ -1090,7 +1090,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                      
                     	        newCompositeNode(grammarAccess.getCheckBoxAccess().getValueEStringParserRuleCall_3_1_0()); 
                     	    
-                    pushFollow(FollowSets000.FOLLOW_ruleEString_in_ruleCheckBox1005);
+                    pushFollow(FOLLOW_ruleEString_in_ruleCheckBox1005);
                     lv_value_4_0=ruleEString();
 
                     state._fsp--;
@@ -1118,7 +1118,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
 
             }
 
-            otherlv_5=(Token)match(input,16,FollowSets000.FOLLOW_16_in_ruleCheckBox1019); 
+            otherlv_5=(Token)match(input,16,FOLLOW_16_in_ruleCheckBox1019); 
 
                 	newLeafNode(otherlv_5, grammarAccess.getCheckBoxAccess().getRightCurlyBracketKeyword_4());
                 
@@ -1155,13 +1155,13 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
             // ../fr.istic.idm.PivotMM/src-gen/fr/istic/idm/parser/antlr/internal/InternalPivotMMDsl.g:474:2: iv_ruleRadioButton= ruleRadioButton EOF
             {
              newCompositeNode(grammarAccess.getRadioButtonRule()); 
-            pushFollow(FollowSets000.FOLLOW_ruleRadioButton_in_entryRuleRadioButton1055);
+            pushFollow(FOLLOW_ruleRadioButton_in_entryRuleRadioButton1055);
             iv_ruleRadioButton=ruleRadioButton();
 
             state._fsp--;
 
              current =iv_ruleRadioButton; 
-            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleRadioButton1065); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleRadioButton1065); 
 
             }
 
@@ -1210,11 +1210,11 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
 
             }
 
-            otherlv_1=(Token)match(input,23,FollowSets000.FOLLOW_23_in_ruleRadioButton1111); 
+            otherlv_1=(Token)match(input,23,FOLLOW_23_in_ruleRadioButton1111); 
 
                 	newLeafNode(otherlv_1, grammarAccess.getRadioButtonAccess().getRadioButtonKeyword_1());
                 
-            otherlv_2=(Token)match(input,12,FollowSets000.FOLLOW_12_in_ruleRadioButton1123); 
+            otherlv_2=(Token)match(input,12,FOLLOW_12_in_ruleRadioButton1123); 
 
                 	newLeafNode(otherlv_2, grammarAccess.getRadioButtonAccess().getLeftCurlyBracketKeyword_2());
                 
@@ -1229,7 +1229,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                 case 1 :
                     // ../fr.istic.idm.PivotMM/src-gen/fr/istic/idm/parser/antlr/internal/InternalPivotMMDsl.g:499:3: otherlv_3= 'value' ( (lv_value_4_0= ruleEString ) )
                     {
-                    otherlv_3=(Token)match(input,22,FollowSets000.FOLLOW_22_in_ruleRadioButton1136); 
+                    otherlv_3=(Token)match(input,22,FOLLOW_22_in_ruleRadioButton1136); 
 
                         	newLeafNode(otherlv_3, grammarAccess.getRadioButtonAccess().getValueKeyword_3_0());
                         
@@ -1242,7 +1242,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                      
                     	        newCompositeNode(grammarAccess.getRadioButtonAccess().getValueEStringParserRuleCall_3_1_0()); 
                     	    
-                    pushFollow(FollowSets000.FOLLOW_ruleEString_in_ruleRadioButton1157);
+                    pushFollow(FOLLOW_ruleEString_in_ruleRadioButton1157);
                     lv_value_4_0=ruleEString();
 
                     state._fsp--;
@@ -1270,7 +1270,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
 
             }
 
-            otherlv_5=(Token)match(input,16,FollowSets000.FOLLOW_16_in_ruleRadioButton1171); 
+            otherlv_5=(Token)match(input,16,FOLLOW_16_in_ruleRadioButton1171); 
 
                 	newLeafNode(otherlv_5, grammarAccess.getRadioButtonAccess().getRightCurlyBracketKeyword_4());
                 
@@ -1307,13 +1307,13 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
             // ../fr.istic.idm.PivotMM/src-gen/fr/istic/idm/parser/antlr/internal/InternalPivotMMDsl.g:535:2: iv_ruleTextField= ruleTextField EOF
             {
              newCompositeNode(grammarAccess.getTextFieldRule()); 
-            pushFollow(FollowSets000.FOLLOW_ruleTextField_in_entryRuleTextField1207);
+            pushFollow(FOLLOW_ruleTextField_in_entryRuleTextField1207);
             iv_ruleTextField=ruleTextField();
 
             state._fsp--;
 
              current =iv_ruleTextField; 
-            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleTextField1217); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleTextField1217); 
 
             }
 
@@ -1362,11 +1362,11 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
 
             }
 
-            otherlv_1=(Token)match(input,24,FollowSets000.FOLLOW_24_in_ruleTextField1263); 
+            otherlv_1=(Token)match(input,24,FOLLOW_24_in_ruleTextField1263); 
 
                 	newLeafNode(otherlv_1, grammarAccess.getTextFieldAccess().getTextFieldKeyword_1());
                 
-            otherlv_2=(Token)match(input,12,FollowSets000.FOLLOW_12_in_ruleTextField1275); 
+            otherlv_2=(Token)match(input,12,FOLLOW_12_in_ruleTextField1275); 
 
                 	newLeafNode(otherlv_2, grammarAccess.getTextFieldAccess().getLeftCurlyBracketKeyword_2());
                 
@@ -1381,7 +1381,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                 case 1 :
                     // ../fr.istic.idm.PivotMM/src-gen/fr/istic/idm/parser/antlr/internal/InternalPivotMMDsl.g:560:3: otherlv_3= 'value' ( (lv_value_4_0= ruleEString ) )
                     {
-                    otherlv_3=(Token)match(input,22,FollowSets000.FOLLOW_22_in_ruleTextField1288); 
+                    otherlv_3=(Token)match(input,22,FOLLOW_22_in_ruleTextField1288); 
 
                         	newLeafNode(otherlv_3, grammarAccess.getTextFieldAccess().getValueKeyword_3_0());
                         
@@ -1394,7 +1394,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                      
                     	        newCompositeNode(grammarAccess.getTextFieldAccess().getValueEStringParserRuleCall_3_1_0()); 
                     	    
-                    pushFollow(FollowSets000.FOLLOW_ruleEString_in_ruleTextField1309);
+                    pushFollow(FOLLOW_ruleEString_in_ruleTextField1309);
                     lv_value_4_0=ruleEString();
 
                     state._fsp--;
@@ -1422,7 +1422,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
 
             }
 
-            otherlv_5=(Token)match(input,16,FollowSets000.FOLLOW_16_in_ruleTextField1323); 
+            otherlv_5=(Token)match(input,16,FOLLOW_16_in_ruleTextField1323); 
 
                 	newLeafNode(otherlv_5, grammarAccess.getTextFieldAccess().getRightCurlyBracketKeyword_4());
                 
@@ -1459,13 +1459,13 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
             // ../fr.istic.idm.PivotMM/src-gen/fr/istic/idm/parser/antlr/internal/InternalPivotMMDsl.g:596:2: iv_ruleComboBox= ruleComboBox EOF
             {
              newCompositeNode(grammarAccess.getComboBoxRule()); 
-            pushFollow(FollowSets000.FOLLOW_ruleComboBox_in_entryRuleComboBox1359);
+            pushFollow(FOLLOW_ruleComboBox_in_entryRuleComboBox1359);
             iv_ruleComboBox=ruleComboBox();
 
             state._fsp--;
 
              current =iv_ruleComboBox; 
-            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleComboBox1369); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleComboBox1369); 
 
             }
 
@@ -1514,11 +1514,11 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
 
             }
 
-            otherlv_1=(Token)match(input,25,FollowSets000.FOLLOW_25_in_ruleComboBox1415); 
+            otherlv_1=(Token)match(input,25,FOLLOW_25_in_ruleComboBox1415); 
 
                 	newLeafNode(otherlv_1, grammarAccess.getComboBoxAccess().getComboBoxKeyword_1());
                 
-            otherlv_2=(Token)match(input,12,FollowSets000.FOLLOW_12_in_ruleComboBox1427); 
+            otherlv_2=(Token)match(input,12,FOLLOW_12_in_ruleComboBox1427); 
 
                 	newLeafNode(otherlv_2, grammarAccess.getComboBoxAccess().getLeftCurlyBracketKeyword_2());
                 
@@ -1533,7 +1533,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                 case 1 :
                     // ../fr.istic.idm.PivotMM/src-gen/fr/istic/idm/parser/antlr/internal/InternalPivotMMDsl.g:621:3: otherlv_3= 'value' ( (lv_value_4_0= ruleEString ) )
                     {
-                    otherlv_3=(Token)match(input,22,FollowSets000.FOLLOW_22_in_ruleComboBox1440); 
+                    otherlv_3=(Token)match(input,22,FOLLOW_22_in_ruleComboBox1440); 
 
                         	newLeafNode(otherlv_3, grammarAccess.getComboBoxAccess().getValueKeyword_3_0());
                         
@@ -1546,7 +1546,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
                      
                     	        newCompositeNode(grammarAccess.getComboBoxAccess().getValueEStringParserRuleCall_3_1_0()); 
                     	    
-                    pushFollow(FollowSets000.FOLLOW_ruleEString_in_ruleComboBox1461);
+                    pushFollow(FOLLOW_ruleEString_in_ruleComboBox1461);
                     lv_value_4_0=ruleEString();
 
                     state._fsp--;
@@ -1574,7 +1574,7 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
 
             }
 
-            otherlv_5=(Token)match(input,16,FollowSets000.FOLLOW_16_in_ruleComboBox1475); 
+            otherlv_5=(Token)match(input,16,FOLLOW_16_in_ruleComboBox1475); 
 
                 	newLeafNode(otherlv_5, grammarAccess.getComboBoxAccess().getRightCurlyBracketKeyword_4());
                 
@@ -1602,75 +1602,71 @@ public class InternalPivotMMDslParser extends AbstractInternalAntlrParser {
 
  
 
-    
-    private static class FollowSets000 {
-        public static final BitSet FOLLOW_rulePollSystem_in_entryRulePollSystem75 = new BitSet(new long[]{0x0000000000000000L});
-        public static final BitSet FOLLOW_EOF_in_entryRulePollSystem85 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_11_in_rulePollSystem131 = new BitSet(new long[]{0x0000000000001000L});
-        public static final BitSet FOLLOW_12_in_rulePollSystem143 = new BitSet(new long[]{0x0000000000016000L});
-        public static final BitSet FOLLOW_13_in_rulePollSystem156 = new BitSet(new long[]{0x0000000000000030L});
-        public static final BitSet FOLLOW_ruleEString_in_rulePollSystem177 = new BitSet(new long[]{0x0000000000014000L});
-        public static final BitSet FOLLOW_14_in_rulePollSystem192 = new BitSet(new long[]{0x0000000000001000L});
-        public static final BitSet FOLLOW_12_in_rulePollSystem204 = new BitSet(new long[]{0x0000000000020000L});
-        public static final BitSet FOLLOW_ruleUiModel_in_rulePollSystem225 = new BitSet(new long[]{0x0000000000018000L});
-        public static final BitSet FOLLOW_15_in_rulePollSystem238 = new BitSet(new long[]{0x0000000000020000L});
-        public static final BitSet FOLLOW_ruleUiModel_in_rulePollSystem259 = new BitSet(new long[]{0x0000000000018000L});
-        public static final BitSet FOLLOW_16_in_rulePollSystem273 = new BitSet(new long[]{0x0000000000010000L});
-        public static final BitSet FOLLOW_16_in_rulePollSystem287 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleWidget_in_entryRuleWidget323 = new BitSet(new long[]{0x0000000000000000L});
-        public static final BitSet FOLLOW_EOF_in_entryRuleWidget333 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleCheckBox_in_ruleWidget380 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleRadioButton_in_ruleWidget407 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleTextField_in_ruleWidget434 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleComboBox_in_ruleWidget461 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleUiModel_in_entryRuleUiModel496 = new BitSet(new long[]{0x0000000000000000L});
-        public static final BitSet FOLLOW_EOF_in_entryRuleUiModel506 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_17_in_ruleUiModel552 = new BitSet(new long[]{0x0000000000001000L});
-        public static final BitSet FOLLOW_12_in_ruleUiModel564 = new BitSet(new long[]{0x00000000001D0000L});
-        public static final BitSet FOLLOW_18_in_ruleUiModel577 = new BitSet(new long[]{0x0000000000000030L});
-        public static final BitSet FOLLOW_ruleEString_in_ruleUiModel598 = new BitSet(new long[]{0x0000000000190000L});
-        public static final BitSet FOLLOW_19_in_ruleUiModel613 = new BitSet(new long[]{0x0000000000000030L});
-        public static final BitSet FOLLOW_ruleEString_in_ruleUiModel634 = new BitSet(new long[]{0x0000000000110000L});
-        public static final BitSet FOLLOW_20_in_ruleUiModel649 = new BitSet(new long[]{0x0000000000001000L});
-        public static final BitSet FOLLOW_12_in_ruleUiModel661 = new BitSet(new long[]{0x0000000003A00000L});
-        public static final BitSet FOLLOW_ruleWidget_in_ruleUiModel682 = new BitSet(new long[]{0x0000000000018000L});
-        public static final BitSet FOLLOW_15_in_ruleUiModel695 = new BitSet(new long[]{0x0000000003A00000L});
-        public static final BitSet FOLLOW_ruleWidget_in_ruleUiModel716 = new BitSet(new long[]{0x0000000000018000L});
-        public static final BitSet FOLLOW_16_in_ruleUiModel730 = new BitSet(new long[]{0x0000000000010000L});
-        public static final BitSet FOLLOW_16_in_ruleUiModel744 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleEString_in_entryRuleEString781 = new BitSet(new long[]{0x0000000000000000L});
-        public static final BitSet FOLLOW_EOF_in_entryRuleEString792 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_RULE_STRING_in_ruleEString832 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_RULE_ID_in_ruleEString858 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleCheckBox_in_entryRuleCheckBox903 = new BitSet(new long[]{0x0000000000000000L});
-        public static final BitSet FOLLOW_EOF_in_entryRuleCheckBox913 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_21_in_ruleCheckBox959 = new BitSet(new long[]{0x0000000000001000L});
-        public static final BitSet FOLLOW_12_in_ruleCheckBox971 = new BitSet(new long[]{0x0000000000410000L});
-        public static final BitSet FOLLOW_22_in_ruleCheckBox984 = new BitSet(new long[]{0x0000000000000030L});
-        public static final BitSet FOLLOW_ruleEString_in_ruleCheckBox1005 = new BitSet(new long[]{0x0000000000010000L});
-        public static final BitSet FOLLOW_16_in_ruleCheckBox1019 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleRadioButton_in_entryRuleRadioButton1055 = new BitSet(new long[]{0x0000000000000000L});
-        public static final BitSet FOLLOW_EOF_in_entryRuleRadioButton1065 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_23_in_ruleRadioButton1111 = new BitSet(new long[]{0x0000000000001000L});
-        public static final BitSet FOLLOW_12_in_ruleRadioButton1123 = new BitSet(new long[]{0x0000000000410000L});
-        public static final BitSet FOLLOW_22_in_ruleRadioButton1136 = new BitSet(new long[]{0x0000000000000030L});
-        public static final BitSet FOLLOW_ruleEString_in_ruleRadioButton1157 = new BitSet(new long[]{0x0000000000010000L});
-        public static final BitSet FOLLOW_16_in_ruleRadioButton1171 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleTextField_in_entryRuleTextField1207 = new BitSet(new long[]{0x0000000000000000L});
-        public static final BitSet FOLLOW_EOF_in_entryRuleTextField1217 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_24_in_ruleTextField1263 = new BitSet(new long[]{0x0000000000001000L});
-        public static final BitSet FOLLOW_12_in_ruleTextField1275 = new BitSet(new long[]{0x0000000000410000L});
-        public static final BitSet FOLLOW_22_in_ruleTextField1288 = new BitSet(new long[]{0x0000000000000030L});
-        public static final BitSet FOLLOW_ruleEString_in_ruleTextField1309 = new BitSet(new long[]{0x0000000000010000L});
-        public static final BitSet FOLLOW_16_in_ruleTextField1323 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleComboBox_in_entryRuleComboBox1359 = new BitSet(new long[]{0x0000000000000000L});
-        public static final BitSet FOLLOW_EOF_in_entryRuleComboBox1369 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_25_in_ruleComboBox1415 = new BitSet(new long[]{0x0000000000001000L});
-        public static final BitSet FOLLOW_12_in_ruleComboBox1427 = new BitSet(new long[]{0x0000000000410000L});
-        public static final BitSet FOLLOW_22_in_ruleComboBox1440 = new BitSet(new long[]{0x0000000000000030L});
-        public static final BitSet FOLLOW_ruleEString_in_ruleComboBox1461 = new BitSet(new long[]{0x0000000000010000L});
-        public static final BitSet FOLLOW_16_in_ruleComboBox1475 = new BitSet(new long[]{0x0000000000000002L});
-    }
-
+    public static final BitSet FOLLOW_rulePollSystem_in_entryRulePollSystem75 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRulePollSystem85 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_11_in_rulePollSystem131 = new BitSet(new long[]{0x0000000000001000L});
+    public static final BitSet FOLLOW_12_in_rulePollSystem143 = new BitSet(new long[]{0x0000000000016000L});
+    public static final BitSet FOLLOW_13_in_rulePollSystem156 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_ruleEString_in_rulePollSystem177 = new BitSet(new long[]{0x0000000000014000L});
+    public static final BitSet FOLLOW_14_in_rulePollSystem192 = new BitSet(new long[]{0x0000000000001000L});
+    public static final BitSet FOLLOW_12_in_rulePollSystem204 = new BitSet(new long[]{0x0000000000020000L});
+    public static final BitSet FOLLOW_ruleUiModel_in_rulePollSystem225 = new BitSet(new long[]{0x0000000000018000L});
+    public static final BitSet FOLLOW_15_in_rulePollSystem238 = new BitSet(new long[]{0x0000000000020000L});
+    public static final BitSet FOLLOW_ruleUiModel_in_rulePollSystem259 = new BitSet(new long[]{0x0000000000018000L});
+    public static final BitSet FOLLOW_16_in_rulePollSystem273 = new BitSet(new long[]{0x0000000000010000L});
+    public static final BitSet FOLLOW_16_in_rulePollSystem287 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleWidget_in_entryRuleWidget323 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleWidget333 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleCheckBox_in_ruleWidget380 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleRadioButton_in_ruleWidget407 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleTextField_in_ruleWidget434 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleComboBox_in_ruleWidget461 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleUiModel_in_entryRuleUiModel496 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleUiModel506 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_17_in_ruleUiModel552 = new BitSet(new long[]{0x0000000000001000L});
+    public static final BitSet FOLLOW_12_in_ruleUiModel564 = new BitSet(new long[]{0x00000000001D0000L});
+    public static final BitSet FOLLOW_18_in_ruleUiModel577 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_ruleEString_in_ruleUiModel598 = new BitSet(new long[]{0x0000000000190000L});
+    public static final BitSet FOLLOW_19_in_ruleUiModel613 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_ruleEString_in_ruleUiModel634 = new BitSet(new long[]{0x0000000000110000L});
+    public static final BitSet FOLLOW_20_in_ruleUiModel649 = new BitSet(new long[]{0x0000000000001000L});
+    public static final BitSet FOLLOW_12_in_ruleUiModel661 = new BitSet(new long[]{0x0000000003A00000L});
+    public static final BitSet FOLLOW_ruleWidget_in_ruleUiModel682 = new BitSet(new long[]{0x0000000000018000L});
+    public static final BitSet FOLLOW_15_in_ruleUiModel695 = new BitSet(new long[]{0x0000000003A00000L});
+    public static final BitSet FOLLOW_ruleWidget_in_ruleUiModel716 = new BitSet(new long[]{0x0000000000018000L});
+    public static final BitSet FOLLOW_16_in_ruleUiModel730 = new BitSet(new long[]{0x0000000000010000L});
+    public static final BitSet FOLLOW_16_in_ruleUiModel744 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleEString_in_entryRuleEString781 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleEString792 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_STRING_in_ruleEString832 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_ruleEString858 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleCheckBox_in_entryRuleCheckBox903 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleCheckBox913 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_21_in_ruleCheckBox959 = new BitSet(new long[]{0x0000000000001000L});
+    public static final BitSet FOLLOW_12_in_ruleCheckBox971 = new BitSet(new long[]{0x0000000000410000L});
+    public static final BitSet FOLLOW_22_in_ruleCheckBox984 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_ruleEString_in_ruleCheckBox1005 = new BitSet(new long[]{0x0000000000010000L});
+    public static final BitSet FOLLOW_16_in_ruleCheckBox1019 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleRadioButton_in_entryRuleRadioButton1055 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleRadioButton1065 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_23_in_ruleRadioButton1111 = new BitSet(new long[]{0x0000000000001000L});
+    public static final BitSet FOLLOW_12_in_ruleRadioButton1123 = new BitSet(new long[]{0x0000000000410000L});
+    public static final BitSet FOLLOW_22_in_ruleRadioButton1136 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_ruleEString_in_ruleRadioButton1157 = new BitSet(new long[]{0x0000000000010000L});
+    public static final BitSet FOLLOW_16_in_ruleRadioButton1171 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleTextField_in_entryRuleTextField1207 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleTextField1217 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_24_in_ruleTextField1263 = new BitSet(new long[]{0x0000000000001000L});
+    public static final BitSet FOLLOW_12_in_ruleTextField1275 = new BitSet(new long[]{0x0000000000410000L});
+    public static final BitSet FOLLOW_22_in_ruleTextField1288 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_ruleEString_in_ruleTextField1309 = new BitSet(new long[]{0x0000000000010000L});
+    public static final BitSet FOLLOW_16_in_ruleTextField1323 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleComboBox_in_entryRuleComboBox1359 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleComboBox1369 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_25_in_ruleComboBox1415 = new BitSet(new long[]{0x0000000000001000L});
+    public static final BitSet FOLLOW_12_in_ruleComboBox1427 = new BitSet(new long[]{0x0000000000410000L});
+    public static final BitSet FOLLOW_22_in_ruleComboBox1440 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_ruleEString_in_ruleComboBox1461 = new BitSet(new long[]{0x0000000000010000L});
+    public static final BitSet FOLLOW_16_in_ruleComboBox1475 = new BitSet(new long[]{0x0000000000000002L});
 
 }

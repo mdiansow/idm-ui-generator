@@ -93,13 +93,13 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:62:1: rulePollSystem EOF
             {
              before(grammarAccess.getPollSystemRule()); 
-            pushFollow(FollowSets000.FOLLOW_rulePollSystem_in_entryRulePollSystem61);
+            pushFollow(FOLLOW_rulePollSystem_in_entryRulePollSystem61);
             rulePollSystem();
 
             state._fsp--;
 
              after(grammarAccess.getPollSystemRule()); 
-            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRulePollSystem68); 
+            match(input,EOF,FOLLOW_EOF_in_entryRulePollSystem68); 
 
             }
 
@@ -132,7 +132,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:76:1: ( rule__PollSystem__Group__0 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:76:2: rule__PollSystem__Group__0
             {
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group__0_in_rulePollSystem94);
+            pushFollow(FOLLOW_rule__PollSystem__Group__0_in_rulePollSystem94);
             rule__PollSystem__Group__0();
 
             state._fsp--;
@@ -170,13 +170,13 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:90:1: ruleWidget EOF
             {
              before(grammarAccess.getWidgetRule()); 
-            pushFollow(FollowSets000.FOLLOW_ruleWidget_in_entryRuleWidget121);
+            pushFollow(FOLLOW_ruleWidget_in_entryRuleWidget121);
             ruleWidget();
 
             state._fsp--;
 
              after(grammarAccess.getWidgetRule()); 
-            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleWidget128); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleWidget128); 
 
             }
 
@@ -209,7 +209,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:104:1: ( rule__Widget__Alternatives )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:104:2: rule__Widget__Alternatives
             {
-            pushFollow(FollowSets000.FOLLOW_rule__Widget__Alternatives_in_ruleWidget154);
+            pushFollow(FOLLOW_rule__Widget__Alternatives_in_ruleWidget154);
             rule__Widget__Alternatives();
 
             state._fsp--;
@@ -247,13 +247,13 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:118:1: ruleUiModel EOF
             {
              before(grammarAccess.getUiModelRule()); 
-            pushFollow(FollowSets000.FOLLOW_ruleUiModel_in_entryRuleUiModel181);
+            pushFollow(FOLLOW_ruleUiModel_in_entryRuleUiModel181);
             ruleUiModel();
 
             state._fsp--;
 
              after(grammarAccess.getUiModelRule()); 
-            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleUiModel188); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleUiModel188); 
 
             }
 
@@ -286,7 +286,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:132:1: ( rule__UiModel__Group__0 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:132:2: rule__UiModel__Group__0
             {
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group__0_in_ruleUiModel214);
+            pushFollow(FOLLOW_rule__UiModel__Group__0_in_ruleUiModel214);
             rule__UiModel__Group__0();
 
             state._fsp--;
@@ -324,13 +324,13 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:146:1: ruleEString EOF
             {
              before(grammarAccess.getEStringRule()); 
-            pushFollow(FollowSets000.FOLLOW_ruleEString_in_entryRuleEString241);
+            pushFollow(FOLLOW_ruleEString_in_entryRuleEString241);
             ruleEString();
 
             state._fsp--;
 
              after(grammarAccess.getEStringRule()); 
-            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleEString248); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleEString248); 
 
             }
 
@@ -363,7 +363,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:160:1: ( rule__EString__Alternatives )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:160:2: rule__EString__Alternatives
             {
-            pushFollow(FollowSets000.FOLLOW_rule__EString__Alternatives_in_ruleEString274);
+            pushFollow(FOLLOW_rule__EString__Alternatives_in_ruleEString274);
             rule__EString__Alternatives();
 
             state._fsp--;
@@ -401,13 +401,13 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:174:1: ruleCheckBox EOF
             {
              before(grammarAccess.getCheckBoxRule()); 
-            pushFollow(FollowSets000.FOLLOW_ruleCheckBox_in_entryRuleCheckBox301);
+            pushFollow(FOLLOW_ruleCheckBox_in_entryRuleCheckBox301);
             ruleCheckBox();
 
             state._fsp--;
 
              after(grammarAccess.getCheckBoxRule()); 
-            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleCheckBox308); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleCheckBox308); 
 
             }
 
@@ -440,7 +440,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:188:1: ( rule__CheckBox__Group__0 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:188:2: rule__CheckBox__Group__0
             {
-            pushFollow(FollowSets000.FOLLOW_rule__CheckBox__Group__0_in_ruleCheckBox334);
+            pushFollow(FOLLOW_rule__CheckBox__Group__0_in_ruleCheckBox334);
             rule__CheckBox__Group__0();
 
             state._fsp--;
@@ -478,13 +478,13 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:202:1: ruleRadioButton EOF
             {
              before(grammarAccess.getRadioButtonRule()); 
-            pushFollow(FollowSets000.FOLLOW_ruleRadioButton_in_entryRuleRadioButton361);
+            pushFollow(FOLLOW_ruleRadioButton_in_entryRuleRadioButton361);
             ruleRadioButton();
 
             state._fsp--;
 
              after(grammarAccess.getRadioButtonRule()); 
-            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleRadioButton368); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleRadioButton368); 
 
             }
 
@@ -517,7 +517,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:216:1: ( rule__RadioButton__Group__0 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:216:2: rule__RadioButton__Group__0
             {
-            pushFollow(FollowSets000.FOLLOW_rule__RadioButton__Group__0_in_ruleRadioButton394);
+            pushFollow(FOLLOW_rule__RadioButton__Group__0_in_ruleRadioButton394);
             rule__RadioButton__Group__0();
 
             state._fsp--;
@@ -555,13 +555,13 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:230:1: ruleTextField EOF
             {
              before(grammarAccess.getTextFieldRule()); 
-            pushFollow(FollowSets000.FOLLOW_ruleTextField_in_entryRuleTextField421);
+            pushFollow(FOLLOW_ruleTextField_in_entryRuleTextField421);
             ruleTextField();
 
             state._fsp--;
 
              after(grammarAccess.getTextFieldRule()); 
-            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleTextField428); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleTextField428); 
 
             }
 
@@ -594,7 +594,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:244:1: ( rule__TextField__Group__0 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:244:2: rule__TextField__Group__0
             {
-            pushFollow(FollowSets000.FOLLOW_rule__TextField__Group__0_in_ruleTextField454);
+            pushFollow(FOLLOW_rule__TextField__Group__0_in_ruleTextField454);
             rule__TextField__Group__0();
 
             state._fsp--;
@@ -632,13 +632,13 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:258:1: ruleComboBox EOF
             {
              before(grammarAccess.getComboBoxRule()); 
-            pushFollow(FollowSets000.FOLLOW_ruleComboBox_in_entryRuleComboBox481);
+            pushFollow(FOLLOW_ruleComboBox_in_entryRuleComboBox481);
             ruleComboBox();
 
             state._fsp--;
 
              after(grammarAccess.getComboBoxRule()); 
-            match(input,EOF,FollowSets000.FOLLOW_EOF_in_entryRuleComboBox488); 
+            match(input,EOF,FOLLOW_EOF_in_entryRuleComboBox488); 
 
             }
 
@@ -671,7 +671,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:272:1: ( rule__ComboBox__Group__0 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:272:2: rule__ComboBox__Group__0
             {
-            pushFollow(FollowSets000.FOLLOW_rule__ComboBox__Group__0_in_ruleComboBox514);
+            pushFollow(FOLLOW_rule__ComboBox__Group__0_in_ruleComboBox514);
             rule__ComboBox__Group__0();
 
             state._fsp--;
@@ -746,7 +746,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
                     // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:290:1: ruleCheckBox
                     {
                      before(grammarAccess.getWidgetAccess().getCheckBoxParserRuleCall_0()); 
-                    pushFollow(FollowSets000.FOLLOW_ruleCheckBox_in_rule__Widget__Alternatives550);
+                    pushFollow(FOLLOW_ruleCheckBox_in_rule__Widget__Alternatives550);
                     ruleCheckBox();
 
                     state._fsp--;
@@ -765,7 +765,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
                     // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:296:1: ruleRadioButton
                     {
                      before(grammarAccess.getWidgetAccess().getRadioButtonParserRuleCall_1()); 
-                    pushFollow(FollowSets000.FOLLOW_ruleRadioButton_in_rule__Widget__Alternatives567);
+                    pushFollow(FOLLOW_ruleRadioButton_in_rule__Widget__Alternatives567);
                     ruleRadioButton();
 
                     state._fsp--;
@@ -784,7 +784,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
                     // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:302:1: ruleTextField
                     {
                      before(grammarAccess.getWidgetAccess().getTextFieldParserRuleCall_2()); 
-                    pushFollow(FollowSets000.FOLLOW_ruleTextField_in_rule__Widget__Alternatives584);
+                    pushFollow(FOLLOW_ruleTextField_in_rule__Widget__Alternatives584);
                     ruleTextField();
 
                     state._fsp--;
@@ -803,7 +803,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
                     // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:308:1: ruleComboBox
                     {
                      before(grammarAccess.getWidgetAccess().getComboBoxParserRuleCall_3()); 
-                    pushFollow(FollowSets000.FOLLOW_ruleComboBox_in_rule__Widget__Alternatives601);
+                    pushFollow(FOLLOW_ruleComboBox_in_rule__Widget__Alternatives601);
                     ruleComboBox();
 
                     state._fsp--;
@@ -863,7 +863,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
                     // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:324:1: RULE_STRING
                     {
                      before(grammarAccess.getEStringAccess().getSTRINGTerminalRuleCall_0()); 
-                    match(input,RULE_STRING,FollowSets000.FOLLOW_RULE_STRING_in_rule__EString__Alternatives633); 
+                    match(input,RULE_STRING,FOLLOW_RULE_STRING_in_rule__EString__Alternatives633); 
                      after(grammarAccess.getEStringAccess().getSTRINGTerminalRuleCall_0()); 
 
                     }
@@ -878,7 +878,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
                     // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:330:1: RULE_ID
                     {
                      before(grammarAccess.getEStringAccess().getIDTerminalRuleCall_1()); 
-                    match(input,RULE_ID,FollowSets000.FOLLOW_RULE_ID_in_rule__EString__Alternatives650); 
+                    match(input,RULE_ID,FOLLOW_RULE_ID_in_rule__EString__Alternatives650); 
                      after(grammarAccess.getEStringAccess().getIDTerminalRuleCall_1()); 
 
                     }
@@ -913,12 +913,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:346:1: ( rule__PollSystem__Group__0__Impl rule__PollSystem__Group__1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:347:2: rule__PollSystem__Group__0__Impl rule__PollSystem__Group__1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group__0__Impl_in_rule__PollSystem__Group__0680);
+            pushFollow(FOLLOW_rule__PollSystem__Group__0__Impl_in_rule__PollSystem__Group__0680);
             rule__PollSystem__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group__1_in_rule__PollSystem__Group__0683);
+            pushFollow(FOLLOW_rule__PollSystem__Group__1_in_rule__PollSystem__Group__0683);
             rule__PollSystem__Group__1();
 
             state._fsp--;
@@ -988,12 +988,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:377:1: ( rule__PollSystem__Group__1__Impl rule__PollSystem__Group__2 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:378:2: rule__PollSystem__Group__1__Impl rule__PollSystem__Group__2
             {
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group__1__Impl_in_rule__PollSystem__Group__1741);
+            pushFollow(FOLLOW_rule__PollSystem__Group__1__Impl_in_rule__PollSystem__Group__1741);
             rule__PollSystem__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group__2_in_rule__PollSystem__Group__1744);
+            pushFollow(FOLLOW_rule__PollSystem__Group__2_in_rule__PollSystem__Group__1744);
             rule__PollSystem__Group__2();
 
             state._fsp--;
@@ -1030,7 +1030,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:391:1: 'PollSystem'
             {
              before(grammarAccess.getPollSystemAccess().getPollSystemKeyword_1()); 
-            match(input,11,FollowSets000.FOLLOW_11_in_rule__PollSystem__Group__1__Impl772); 
+            match(input,11,FOLLOW_11_in_rule__PollSystem__Group__1__Impl772); 
              after(grammarAccess.getPollSystemAccess().getPollSystemKeyword_1()); 
 
             }
@@ -1063,12 +1063,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:408:1: ( rule__PollSystem__Group__2__Impl rule__PollSystem__Group__3 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:409:2: rule__PollSystem__Group__2__Impl rule__PollSystem__Group__3
             {
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group__2__Impl_in_rule__PollSystem__Group__2803);
+            pushFollow(FOLLOW_rule__PollSystem__Group__2__Impl_in_rule__PollSystem__Group__2803);
             rule__PollSystem__Group__2__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group__3_in_rule__PollSystem__Group__2806);
+            pushFollow(FOLLOW_rule__PollSystem__Group__3_in_rule__PollSystem__Group__2806);
             rule__PollSystem__Group__3();
 
             state._fsp--;
@@ -1105,7 +1105,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:422:1: '{'
             {
              before(grammarAccess.getPollSystemAccess().getLeftCurlyBracketKeyword_2()); 
-            match(input,12,FollowSets000.FOLLOW_12_in_rule__PollSystem__Group__2__Impl834); 
+            match(input,12,FOLLOW_12_in_rule__PollSystem__Group__2__Impl834); 
              after(grammarAccess.getPollSystemAccess().getLeftCurlyBracketKeyword_2()); 
 
             }
@@ -1138,12 +1138,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:439:1: ( rule__PollSystem__Group__3__Impl rule__PollSystem__Group__4 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:440:2: rule__PollSystem__Group__3__Impl rule__PollSystem__Group__4
             {
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group__3__Impl_in_rule__PollSystem__Group__3865);
+            pushFollow(FOLLOW_rule__PollSystem__Group__3__Impl_in_rule__PollSystem__Group__3865);
             rule__PollSystem__Group__3__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group__4_in_rule__PollSystem__Group__3868);
+            pushFollow(FOLLOW_rule__PollSystem__Group__4_in_rule__PollSystem__Group__3868);
             rule__PollSystem__Group__4();
 
             state._fsp--;
@@ -1191,7 +1191,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
                 case 1 :
                     // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:454:2: rule__PollSystem__Group_3__0
                     {
-                    pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group_3__0_in_rule__PollSystem__Group__3__Impl895);
+                    pushFollow(FOLLOW_rule__PollSystem__Group_3__0_in_rule__PollSystem__Group__3__Impl895);
                     rule__PollSystem__Group_3__0();
 
                     state._fsp--;
@@ -1234,12 +1234,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:468:1: ( rule__PollSystem__Group__4__Impl rule__PollSystem__Group__5 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:469:2: rule__PollSystem__Group__4__Impl rule__PollSystem__Group__5
             {
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group__4__Impl_in_rule__PollSystem__Group__4926);
+            pushFollow(FOLLOW_rule__PollSystem__Group__4__Impl_in_rule__PollSystem__Group__4926);
             rule__PollSystem__Group__4__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group__5_in_rule__PollSystem__Group__4929);
+            pushFollow(FOLLOW_rule__PollSystem__Group__5_in_rule__PollSystem__Group__4929);
             rule__PollSystem__Group__5();
 
             state._fsp--;
@@ -1287,7 +1287,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
                 case 1 :
                     // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:483:2: rule__PollSystem__Group_4__0
                     {
-                    pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group_4__0_in_rule__PollSystem__Group__4__Impl956);
+                    pushFollow(FOLLOW_rule__PollSystem__Group_4__0_in_rule__PollSystem__Group__4__Impl956);
                     rule__PollSystem__Group_4__0();
 
                     state._fsp--;
@@ -1330,7 +1330,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:497:1: ( rule__PollSystem__Group__5__Impl )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:498:2: rule__PollSystem__Group__5__Impl
             {
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group__5__Impl_in_rule__PollSystem__Group__5987);
+            pushFollow(FOLLOW_rule__PollSystem__Group__5__Impl_in_rule__PollSystem__Group__5987);
             rule__PollSystem__Group__5__Impl();
 
             state._fsp--;
@@ -1367,7 +1367,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:510:1: '}'
             {
              before(grammarAccess.getPollSystemAccess().getRightCurlyBracketKeyword_5()); 
-            match(input,13,FollowSets000.FOLLOW_13_in_rule__PollSystem__Group__5__Impl1015); 
+            match(input,13,FOLLOW_13_in_rule__PollSystem__Group__5__Impl1015); 
              after(grammarAccess.getPollSystemAccess().getRightCurlyBracketKeyword_5()); 
 
             }
@@ -1400,12 +1400,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:539:1: ( rule__PollSystem__Group_3__0__Impl rule__PollSystem__Group_3__1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:540:2: rule__PollSystem__Group_3__0__Impl rule__PollSystem__Group_3__1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group_3__0__Impl_in_rule__PollSystem__Group_3__01058);
+            pushFollow(FOLLOW_rule__PollSystem__Group_3__0__Impl_in_rule__PollSystem__Group_3__01058);
             rule__PollSystem__Group_3__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group_3__1_in_rule__PollSystem__Group_3__01061);
+            pushFollow(FOLLOW_rule__PollSystem__Group_3__1_in_rule__PollSystem__Group_3__01061);
             rule__PollSystem__Group_3__1();
 
             state._fsp--;
@@ -1442,7 +1442,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:553:1: 'title'
             {
              before(grammarAccess.getPollSystemAccess().getTitleKeyword_3_0()); 
-            match(input,14,FollowSets000.FOLLOW_14_in_rule__PollSystem__Group_3__0__Impl1089); 
+            match(input,14,FOLLOW_14_in_rule__PollSystem__Group_3__0__Impl1089); 
              after(grammarAccess.getPollSystemAccess().getTitleKeyword_3_0()); 
 
             }
@@ -1475,7 +1475,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:570:1: ( rule__PollSystem__Group_3__1__Impl )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:571:2: rule__PollSystem__Group_3__1__Impl
             {
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group_3__1__Impl_in_rule__PollSystem__Group_3__11120);
+            pushFollow(FOLLOW_rule__PollSystem__Group_3__1__Impl_in_rule__PollSystem__Group_3__11120);
             rule__PollSystem__Group_3__1__Impl();
 
             state._fsp--;
@@ -1515,7 +1515,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:584:1: ( rule__PollSystem__TitleAssignment_3_1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:584:2: rule__PollSystem__TitleAssignment_3_1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__TitleAssignment_3_1_in_rule__PollSystem__Group_3__1__Impl1147);
+            pushFollow(FOLLOW_rule__PollSystem__TitleAssignment_3_1_in_rule__PollSystem__Group_3__1__Impl1147);
             rule__PollSystem__TitleAssignment_3_1();
 
             state._fsp--;
@@ -1555,12 +1555,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:602:1: ( rule__PollSystem__Group_4__0__Impl rule__PollSystem__Group_4__1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:603:2: rule__PollSystem__Group_4__0__Impl rule__PollSystem__Group_4__1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group_4__0__Impl_in_rule__PollSystem__Group_4__01181);
+            pushFollow(FOLLOW_rule__PollSystem__Group_4__0__Impl_in_rule__PollSystem__Group_4__01181);
             rule__PollSystem__Group_4__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group_4__1_in_rule__PollSystem__Group_4__01184);
+            pushFollow(FOLLOW_rule__PollSystem__Group_4__1_in_rule__PollSystem__Group_4__01184);
             rule__PollSystem__Group_4__1();
 
             state._fsp--;
@@ -1597,7 +1597,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:616:1: 'models'
             {
              before(grammarAccess.getPollSystemAccess().getModelsKeyword_4_0()); 
-            match(input,15,FollowSets000.FOLLOW_15_in_rule__PollSystem__Group_4__0__Impl1212); 
+            match(input,15,FOLLOW_15_in_rule__PollSystem__Group_4__0__Impl1212); 
              after(grammarAccess.getPollSystemAccess().getModelsKeyword_4_0()); 
 
             }
@@ -1630,12 +1630,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:633:1: ( rule__PollSystem__Group_4__1__Impl rule__PollSystem__Group_4__2 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:634:2: rule__PollSystem__Group_4__1__Impl rule__PollSystem__Group_4__2
             {
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group_4__1__Impl_in_rule__PollSystem__Group_4__11243);
+            pushFollow(FOLLOW_rule__PollSystem__Group_4__1__Impl_in_rule__PollSystem__Group_4__11243);
             rule__PollSystem__Group_4__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group_4__2_in_rule__PollSystem__Group_4__11246);
+            pushFollow(FOLLOW_rule__PollSystem__Group_4__2_in_rule__PollSystem__Group_4__11246);
             rule__PollSystem__Group_4__2();
 
             state._fsp--;
@@ -1672,7 +1672,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:647:1: '{'
             {
              before(grammarAccess.getPollSystemAccess().getLeftCurlyBracketKeyword_4_1()); 
-            match(input,12,FollowSets000.FOLLOW_12_in_rule__PollSystem__Group_4__1__Impl1274); 
+            match(input,12,FOLLOW_12_in_rule__PollSystem__Group_4__1__Impl1274); 
              after(grammarAccess.getPollSystemAccess().getLeftCurlyBracketKeyword_4_1()); 
 
             }
@@ -1705,12 +1705,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:664:1: ( rule__PollSystem__Group_4__2__Impl rule__PollSystem__Group_4__3 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:665:2: rule__PollSystem__Group_4__2__Impl rule__PollSystem__Group_4__3
             {
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group_4__2__Impl_in_rule__PollSystem__Group_4__21305);
+            pushFollow(FOLLOW_rule__PollSystem__Group_4__2__Impl_in_rule__PollSystem__Group_4__21305);
             rule__PollSystem__Group_4__2__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group_4__3_in_rule__PollSystem__Group_4__21308);
+            pushFollow(FOLLOW_rule__PollSystem__Group_4__3_in_rule__PollSystem__Group_4__21308);
             rule__PollSystem__Group_4__3();
 
             state._fsp--;
@@ -1750,7 +1750,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:679:1: ( rule__PollSystem__ModelsAssignment_4_2 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:679:2: rule__PollSystem__ModelsAssignment_4_2
             {
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__ModelsAssignment_4_2_in_rule__PollSystem__Group_4__2__Impl1335);
+            pushFollow(FOLLOW_rule__PollSystem__ModelsAssignment_4_2_in_rule__PollSystem__Group_4__2__Impl1335);
             rule__PollSystem__ModelsAssignment_4_2();
 
             state._fsp--;
@@ -1790,12 +1790,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:693:1: ( rule__PollSystem__Group_4__3__Impl rule__PollSystem__Group_4__4 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:694:2: rule__PollSystem__Group_4__3__Impl rule__PollSystem__Group_4__4
             {
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group_4__3__Impl_in_rule__PollSystem__Group_4__31365);
+            pushFollow(FOLLOW_rule__PollSystem__Group_4__3__Impl_in_rule__PollSystem__Group_4__31365);
             rule__PollSystem__Group_4__3__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group_4__4_in_rule__PollSystem__Group_4__31368);
+            pushFollow(FOLLOW_rule__PollSystem__Group_4__4_in_rule__PollSystem__Group_4__31368);
             rule__PollSystem__Group_4__4();
 
             state._fsp--;
@@ -1847,7 +1847,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             	case 1 :
             	    // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:708:2: rule__PollSystem__Group_4_3__0
             	    {
-            	    pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group_4_3__0_in_rule__PollSystem__Group_4__3__Impl1395);
+            	    pushFollow(FOLLOW_rule__PollSystem__Group_4_3__0_in_rule__PollSystem__Group_4__3__Impl1395);
             	    rule__PollSystem__Group_4_3__0();
 
             	    state._fsp--;
@@ -1893,7 +1893,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:722:1: ( rule__PollSystem__Group_4__4__Impl )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:723:2: rule__PollSystem__Group_4__4__Impl
             {
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group_4__4__Impl_in_rule__PollSystem__Group_4__41426);
+            pushFollow(FOLLOW_rule__PollSystem__Group_4__4__Impl_in_rule__PollSystem__Group_4__41426);
             rule__PollSystem__Group_4__4__Impl();
 
             state._fsp--;
@@ -1930,7 +1930,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:735:1: '}'
             {
              before(grammarAccess.getPollSystemAccess().getRightCurlyBracketKeyword_4_4()); 
-            match(input,13,FollowSets000.FOLLOW_13_in_rule__PollSystem__Group_4__4__Impl1454); 
+            match(input,13,FOLLOW_13_in_rule__PollSystem__Group_4__4__Impl1454); 
              after(grammarAccess.getPollSystemAccess().getRightCurlyBracketKeyword_4_4()); 
 
             }
@@ -1963,12 +1963,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:762:1: ( rule__PollSystem__Group_4_3__0__Impl rule__PollSystem__Group_4_3__1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:763:2: rule__PollSystem__Group_4_3__0__Impl rule__PollSystem__Group_4_3__1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group_4_3__0__Impl_in_rule__PollSystem__Group_4_3__01495);
+            pushFollow(FOLLOW_rule__PollSystem__Group_4_3__0__Impl_in_rule__PollSystem__Group_4_3__01495);
             rule__PollSystem__Group_4_3__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group_4_3__1_in_rule__PollSystem__Group_4_3__01498);
+            pushFollow(FOLLOW_rule__PollSystem__Group_4_3__1_in_rule__PollSystem__Group_4_3__01498);
             rule__PollSystem__Group_4_3__1();
 
             state._fsp--;
@@ -2005,7 +2005,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:776:1: ','
             {
              before(grammarAccess.getPollSystemAccess().getCommaKeyword_4_3_0()); 
-            match(input,16,FollowSets000.FOLLOW_16_in_rule__PollSystem__Group_4_3__0__Impl1526); 
+            match(input,16,FOLLOW_16_in_rule__PollSystem__Group_4_3__0__Impl1526); 
              after(grammarAccess.getPollSystemAccess().getCommaKeyword_4_3_0()); 
 
             }
@@ -2038,7 +2038,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:793:1: ( rule__PollSystem__Group_4_3__1__Impl )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:794:2: rule__PollSystem__Group_4_3__1__Impl
             {
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__Group_4_3__1__Impl_in_rule__PollSystem__Group_4_3__11557);
+            pushFollow(FOLLOW_rule__PollSystem__Group_4_3__1__Impl_in_rule__PollSystem__Group_4_3__11557);
             rule__PollSystem__Group_4_3__1__Impl();
 
             state._fsp--;
@@ -2078,7 +2078,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:807:1: ( rule__PollSystem__ModelsAssignment_4_3_1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:807:2: rule__PollSystem__ModelsAssignment_4_3_1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__PollSystem__ModelsAssignment_4_3_1_in_rule__PollSystem__Group_4_3__1__Impl1584);
+            pushFollow(FOLLOW_rule__PollSystem__ModelsAssignment_4_3_1_in_rule__PollSystem__Group_4_3__1__Impl1584);
             rule__PollSystem__ModelsAssignment_4_3_1();
 
             state._fsp--;
@@ -2118,12 +2118,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:825:1: ( rule__UiModel__Group__0__Impl rule__UiModel__Group__1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:826:2: rule__UiModel__Group__0__Impl rule__UiModel__Group__1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group__0__Impl_in_rule__UiModel__Group__01618);
+            pushFollow(FOLLOW_rule__UiModel__Group__0__Impl_in_rule__UiModel__Group__01618);
             rule__UiModel__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group__1_in_rule__UiModel__Group__01621);
+            pushFollow(FOLLOW_rule__UiModel__Group__1_in_rule__UiModel__Group__01621);
             rule__UiModel__Group__1();
 
             state._fsp--;
@@ -2193,12 +2193,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:856:1: ( rule__UiModel__Group__1__Impl rule__UiModel__Group__2 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:857:2: rule__UiModel__Group__1__Impl rule__UiModel__Group__2
             {
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group__1__Impl_in_rule__UiModel__Group__11679);
+            pushFollow(FOLLOW_rule__UiModel__Group__1__Impl_in_rule__UiModel__Group__11679);
             rule__UiModel__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group__2_in_rule__UiModel__Group__11682);
+            pushFollow(FOLLOW_rule__UiModel__Group__2_in_rule__UiModel__Group__11682);
             rule__UiModel__Group__2();
 
             state._fsp--;
@@ -2235,7 +2235,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:870:1: 'UiModel'
             {
              before(grammarAccess.getUiModelAccess().getUiModelKeyword_1()); 
-            match(input,17,FollowSets000.FOLLOW_17_in_rule__UiModel__Group__1__Impl1710); 
+            match(input,17,FOLLOW_17_in_rule__UiModel__Group__1__Impl1710); 
              after(grammarAccess.getUiModelAccess().getUiModelKeyword_1()); 
 
             }
@@ -2268,12 +2268,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:887:1: ( rule__UiModel__Group__2__Impl rule__UiModel__Group__3 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:888:2: rule__UiModel__Group__2__Impl rule__UiModel__Group__3
             {
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group__2__Impl_in_rule__UiModel__Group__21741);
+            pushFollow(FOLLOW_rule__UiModel__Group__2__Impl_in_rule__UiModel__Group__21741);
             rule__UiModel__Group__2__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group__3_in_rule__UiModel__Group__21744);
+            pushFollow(FOLLOW_rule__UiModel__Group__3_in_rule__UiModel__Group__21744);
             rule__UiModel__Group__3();
 
             state._fsp--;
@@ -2310,7 +2310,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:901:1: '{'
             {
              before(grammarAccess.getUiModelAccess().getLeftCurlyBracketKeyword_2()); 
-            match(input,12,FollowSets000.FOLLOW_12_in_rule__UiModel__Group__2__Impl1772); 
+            match(input,12,FOLLOW_12_in_rule__UiModel__Group__2__Impl1772); 
              after(grammarAccess.getUiModelAccess().getLeftCurlyBracketKeyword_2()); 
 
             }
@@ -2343,12 +2343,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:918:1: ( rule__UiModel__Group__3__Impl rule__UiModel__Group__4 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:919:2: rule__UiModel__Group__3__Impl rule__UiModel__Group__4
             {
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group__3__Impl_in_rule__UiModel__Group__31803);
+            pushFollow(FOLLOW_rule__UiModel__Group__3__Impl_in_rule__UiModel__Group__31803);
             rule__UiModel__Group__3__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group__4_in_rule__UiModel__Group__31806);
+            pushFollow(FOLLOW_rule__UiModel__Group__4_in_rule__UiModel__Group__31806);
             rule__UiModel__Group__4();
 
             state._fsp--;
@@ -2396,7 +2396,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
                 case 1 :
                     // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:933:2: rule__UiModel__Group_3__0
                     {
-                    pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group_3__0_in_rule__UiModel__Group__3__Impl1833);
+                    pushFollow(FOLLOW_rule__UiModel__Group_3__0_in_rule__UiModel__Group__3__Impl1833);
                     rule__UiModel__Group_3__0();
 
                     state._fsp--;
@@ -2439,12 +2439,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:947:1: ( rule__UiModel__Group__4__Impl rule__UiModel__Group__5 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:948:2: rule__UiModel__Group__4__Impl rule__UiModel__Group__5
             {
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group__4__Impl_in_rule__UiModel__Group__41864);
+            pushFollow(FOLLOW_rule__UiModel__Group__4__Impl_in_rule__UiModel__Group__41864);
             rule__UiModel__Group__4__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group__5_in_rule__UiModel__Group__41867);
+            pushFollow(FOLLOW_rule__UiModel__Group__5_in_rule__UiModel__Group__41867);
             rule__UiModel__Group__5();
 
             state._fsp--;
@@ -2492,7 +2492,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
                 case 1 :
                     // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:962:2: rule__UiModel__Group_4__0
                     {
-                    pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group_4__0_in_rule__UiModel__Group__4__Impl1894);
+                    pushFollow(FOLLOW_rule__UiModel__Group_4__0_in_rule__UiModel__Group__4__Impl1894);
                     rule__UiModel__Group_4__0();
 
                     state._fsp--;
@@ -2535,12 +2535,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:976:1: ( rule__UiModel__Group__5__Impl rule__UiModel__Group__6 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:977:2: rule__UiModel__Group__5__Impl rule__UiModel__Group__6
             {
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group__5__Impl_in_rule__UiModel__Group__51925);
+            pushFollow(FOLLOW_rule__UiModel__Group__5__Impl_in_rule__UiModel__Group__51925);
             rule__UiModel__Group__5__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group__6_in_rule__UiModel__Group__51928);
+            pushFollow(FOLLOW_rule__UiModel__Group__6_in_rule__UiModel__Group__51928);
             rule__UiModel__Group__6();
 
             state._fsp--;
@@ -2588,7 +2588,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
                 case 1 :
                     // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:991:2: rule__UiModel__Group_5__0
                     {
-                    pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group_5__0_in_rule__UiModel__Group__5__Impl1955);
+                    pushFollow(FOLLOW_rule__UiModel__Group_5__0_in_rule__UiModel__Group__5__Impl1955);
                     rule__UiModel__Group_5__0();
 
                     state._fsp--;
@@ -2631,7 +2631,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1005:1: ( rule__UiModel__Group__6__Impl )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1006:2: rule__UiModel__Group__6__Impl
             {
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group__6__Impl_in_rule__UiModel__Group__61986);
+            pushFollow(FOLLOW_rule__UiModel__Group__6__Impl_in_rule__UiModel__Group__61986);
             rule__UiModel__Group__6__Impl();
 
             state._fsp--;
@@ -2668,7 +2668,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1018:1: '}'
             {
              before(grammarAccess.getUiModelAccess().getRightCurlyBracketKeyword_6()); 
-            match(input,13,FollowSets000.FOLLOW_13_in_rule__UiModel__Group__6__Impl2014); 
+            match(input,13,FOLLOW_13_in_rule__UiModel__Group__6__Impl2014); 
              after(grammarAccess.getUiModelAccess().getRightCurlyBracketKeyword_6()); 
 
             }
@@ -2701,12 +2701,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1049:1: ( rule__UiModel__Group_3__0__Impl rule__UiModel__Group_3__1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1050:2: rule__UiModel__Group_3__0__Impl rule__UiModel__Group_3__1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group_3__0__Impl_in_rule__UiModel__Group_3__02059);
+            pushFollow(FOLLOW_rule__UiModel__Group_3__0__Impl_in_rule__UiModel__Group_3__02059);
             rule__UiModel__Group_3__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group_3__1_in_rule__UiModel__Group_3__02062);
+            pushFollow(FOLLOW_rule__UiModel__Group_3__1_in_rule__UiModel__Group_3__02062);
             rule__UiModel__Group_3__1();
 
             state._fsp--;
@@ -2743,7 +2743,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1063:1: 'id'
             {
              before(grammarAccess.getUiModelAccess().getIdKeyword_3_0()); 
-            match(input,18,FollowSets000.FOLLOW_18_in_rule__UiModel__Group_3__0__Impl2090); 
+            match(input,18,FOLLOW_18_in_rule__UiModel__Group_3__0__Impl2090); 
              after(grammarAccess.getUiModelAccess().getIdKeyword_3_0()); 
 
             }
@@ -2776,7 +2776,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1080:1: ( rule__UiModel__Group_3__1__Impl )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1081:2: rule__UiModel__Group_3__1__Impl
             {
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group_3__1__Impl_in_rule__UiModel__Group_3__12121);
+            pushFollow(FOLLOW_rule__UiModel__Group_3__1__Impl_in_rule__UiModel__Group_3__12121);
             rule__UiModel__Group_3__1__Impl();
 
             state._fsp--;
@@ -2816,7 +2816,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1094:1: ( rule__UiModel__IdAssignment_3_1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1094:2: rule__UiModel__IdAssignment_3_1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__IdAssignment_3_1_in_rule__UiModel__Group_3__1__Impl2148);
+            pushFollow(FOLLOW_rule__UiModel__IdAssignment_3_1_in_rule__UiModel__Group_3__1__Impl2148);
             rule__UiModel__IdAssignment_3_1();
 
             state._fsp--;
@@ -2856,12 +2856,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1112:1: ( rule__UiModel__Group_4__0__Impl rule__UiModel__Group_4__1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1113:2: rule__UiModel__Group_4__0__Impl rule__UiModel__Group_4__1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group_4__0__Impl_in_rule__UiModel__Group_4__02182);
+            pushFollow(FOLLOW_rule__UiModel__Group_4__0__Impl_in_rule__UiModel__Group_4__02182);
             rule__UiModel__Group_4__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group_4__1_in_rule__UiModel__Group_4__02185);
+            pushFollow(FOLLOW_rule__UiModel__Group_4__1_in_rule__UiModel__Group_4__02185);
             rule__UiModel__Group_4__1();
 
             state._fsp--;
@@ -2898,7 +2898,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1126:1: 'laQuestion'
             {
              before(grammarAccess.getUiModelAccess().getLaQuestionKeyword_4_0()); 
-            match(input,19,FollowSets000.FOLLOW_19_in_rule__UiModel__Group_4__0__Impl2213); 
+            match(input,19,FOLLOW_19_in_rule__UiModel__Group_4__0__Impl2213); 
              after(grammarAccess.getUiModelAccess().getLaQuestionKeyword_4_0()); 
 
             }
@@ -2931,7 +2931,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1143:1: ( rule__UiModel__Group_4__1__Impl )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1144:2: rule__UiModel__Group_4__1__Impl
             {
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group_4__1__Impl_in_rule__UiModel__Group_4__12244);
+            pushFollow(FOLLOW_rule__UiModel__Group_4__1__Impl_in_rule__UiModel__Group_4__12244);
             rule__UiModel__Group_4__1__Impl();
 
             state._fsp--;
@@ -2971,7 +2971,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1157:1: ( rule__UiModel__LaQuestionAssignment_4_1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1157:2: rule__UiModel__LaQuestionAssignment_4_1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__LaQuestionAssignment_4_1_in_rule__UiModel__Group_4__1__Impl2271);
+            pushFollow(FOLLOW_rule__UiModel__LaQuestionAssignment_4_1_in_rule__UiModel__Group_4__1__Impl2271);
             rule__UiModel__LaQuestionAssignment_4_1();
 
             state._fsp--;
@@ -3011,12 +3011,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1175:1: ( rule__UiModel__Group_5__0__Impl rule__UiModel__Group_5__1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1176:2: rule__UiModel__Group_5__0__Impl rule__UiModel__Group_5__1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group_5__0__Impl_in_rule__UiModel__Group_5__02305);
+            pushFollow(FOLLOW_rule__UiModel__Group_5__0__Impl_in_rule__UiModel__Group_5__02305);
             rule__UiModel__Group_5__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group_5__1_in_rule__UiModel__Group_5__02308);
+            pushFollow(FOLLOW_rule__UiModel__Group_5__1_in_rule__UiModel__Group_5__02308);
             rule__UiModel__Group_5__1();
 
             state._fsp--;
@@ -3053,7 +3053,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1189:1: 'widgets'
             {
              before(grammarAccess.getUiModelAccess().getWidgetsKeyword_5_0()); 
-            match(input,20,FollowSets000.FOLLOW_20_in_rule__UiModel__Group_5__0__Impl2336); 
+            match(input,20,FOLLOW_20_in_rule__UiModel__Group_5__0__Impl2336); 
              after(grammarAccess.getUiModelAccess().getWidgetsKeyword_5_0()); 
 
             }
@@ -3086,12 +3086,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1206:1: ( rule__UiModel__Group_5__1__Impl rule__UiModel__Group_5__2 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1207:2: rule__UiModel__Group_5__1__Impl rule__UiModel__Group_5__2
             {
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group_5__1__Impl_in_rule__UiModel__Group_5__12367);
+            pushFollow(FOLLOW_rule__UiModel__Group_5__1__Impl_in_rule__UiModel__Group_5__12367);
             rule__UiModel__Group_5__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group_5__2_in_rule__UiModel__Group_5__12370);
+            pushFollow(FOLLOW_rule__UiModel__Group_5__2_in_rule__UiModel__Group_5__12370);
             rule__UiModel__Group_5__2();
 
             state._fsp--;
@@ -3128,7 +3128,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1220:1: '{'
             {
              before(grammarAccess.getUiModelAccess().getLeftCurlyBracketKeyword_5_1()); 
-            match(input,12,FollowSets000.FOLLOW_12_in_rule__UiModel__Group_5__1__Impl2398); 
+            match(input,12,FOLLOW_12_in_rule__UiModel__Group_5__1__Impl2398); 
              after(grammarAccess.getUiModelAccess().getLeftCurlyBracketKeyword_5_1()); 
 
             }
@@ -3161,12 +3161,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1237:1: ( rule__UiModel__Group_5__2__Impl rule__UiModel__Group_5__3 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1238:2: rule__UiModel__Group_5__2__Impl rule__UiModel__Group_5__3
             {
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group_5__2__Impl_in_rule__UiModel__Group_5__22429);
+            pushFollow(FOLLOW_rule__UiModel__Group_5__2__Impl_in_rule__UiModel__Group_5__22429);
             rule__UiModel__Group_5__2__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group_5__3_in_rule__UiModel__Group_5__22432);
+            pushFollow(FOLLOW_rule__UiModel__Group_5__3_in_rule__UiModel__Group_5__22432);
             rule__UiModel__Group_5__3();
 
             state._fsp--;
@@ -3206,7 +3206,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1252:1: ( rule__UiModel__WidgetsAssignment_5_2 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1252:2: rule__UiModel__WidgetsAssignment_5_2
             {
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__WidgetsAssignment_5_2_in_rule__UiModel__Group_5__2__Impl2459);
+            pushFollow(FOLLOW_rule__UiModel__WidgetsAssignment_5_2_in_rule__UiModel__Group_5__2__Impl2459);
             rule__UiModel__WidgetsAssignment_5_2();
 
             state._fsp--;
@@ -3246,12 +3246,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1266:1: ( rule__UiModel__Group_5__3__Impl rule__UiModel__Group_5__4 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1267:2: rule__UiModel__Group_5__3__Impl rule__UiModel__Group_5__4
             {
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group_5__3__Impl_in_rule__UiModel__Group_5__32489);
+            pushFollow(FOLLOW_rule__UiModel__Group_5__3__Impl_in_rule__UiModel__Group_5__32489);
             rule__UiModel__Group_5__3__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group_5__4_in_rule__UiModel__Group_5__32492);
+            pushFollow(FOLLOW_rule__UiModel__Group_5__4_in_rule__UiModel__Group_5__32492);
             rule__UiModel__Group_5__4();
 
             state._fsp--;
@@ -3303,7 +3303,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             	case 1 :
             	    // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1281:2: rule__UiModel__Group_5_3__0
             	    {
-            	    pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group_5_3__0_in_rule__UiModel__Group_5__3__Impl2519);
+            	    pushFollow(FOLLOW_rule__UiModel__Group_5_3__0_in_rule__UiModel__Group_5__3__Impl2519);
             	    rule__UiModel__Group_5_3__0();
 
             	    state._fsp--;
@@ -3349,7 +3349,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1295:1: ( rule__UiModel__Group_5__4__Impl )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1296:2: rule__UiModel__Group_5__4__Impl
             {
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group_5__4__Impl_in_rule__UiModel__Group_5__42550);
+            pushFollow(FOLLOW_rule__UiModel__Group_5__4__Impl_in_rule__UiModel__Group_5__42550);
             rule__UiModel__Group_5__4__Impl();
 
             state._fsp--;
@@ -3386,7 +3386,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1308:1: '}'
             {
              before(grammarAccess.getUiModelAccess().getRightCurlyBracketKeyword_5_4()); 
-            match(input,13,FollowSets000.FOLLOW_13_in_rule__UiModel__Group_5__4__Impl2578); 
+            match(input,13,FOLLOW_13_in_rule__UiModel__Group_5__4__Impl2578); 
              after(grammarAccess.getUiModelAccess().getRightCurlyBracketKeyword_5_4()); 
 
             }
@@ -3419,12 +3419,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1335:1: ( rule__UiModel__Group_5_3__0__Impl rule__UiModel__Group_5_3__1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1336:2: rule__UiModel__Group_5_3__0__Impl rule__UiModel__Group_5_3__1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group_5_3__0__Impl_in_rule__UiModel__Group_5_3__02619);
+            pushFollow(FOLLOW_rule__UiModel__Group_5_3__0__Impl_in_rule__UiModel__Group_5_3__02619);
             rule__UiModel__Group_5_3__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group_5_3__1_in_rule__UiModel__Group_5_3__02622);
+            pushFollow(FOLLOW_rule__UiModel__Group_5_3__1_in_rule__UiModel__Group_5_3__02622);
             rule__UiModel__Group_5_3__1();
 
             state._fsp--;
@@ -3461,7 +3461,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1349:1: ','
             {
              before(grammarAccess.getUiModelAccess().getCommaKeyword_5_3_0()); 
-            match(input,16,FollowSets000.FOLLOW_16_in_rule__UiModel__Group_5_3__0__Impl2650); 
+            match(input,16,FOLLOW_16_in_rule__UiModel__Group_5_3__0__Impl2650); 
              after(grammarAccess.getUiModelAccess().getCommaKeyword_5_3_0()); 
 
             }
@@ -3494,7 +3494,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1366:1: ( rule__UiModel__Group_5_3__1__Impl )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1367:2: rule__UiModel__Group_5_3__1__Impl
             {
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__Group_5_3__1__Impl_in_rule__UiModel__Group_5_3__12681);
+            pushFollow(FOLLOW_rule__UiModel__Group_5_3__1__Impl_in_rule__UiModel__Group_5_3__12681);
             rule__UiModel__Group_5_3__1__Impl();
 
             state._fsp--;
@@ -3534,7 +3534,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1380:1: ( rule__UiModel__WidgetsAssignment_5_3_1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1380:2: rule__UiModel__WidgetsAssignment_5_3_1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__UiModel__WidgetsAssignment_5_3_1_in_rule__UiModel__Group_5_3__1__Impl2708);
+            pushFollow(FOLLOW_rule__UiModel__WidgetsAssignment_5_3_1_in_rule__UiModel__Group_5_3__1__Impl2708);
             rule__UiModel__WidgetsAssignment_5_3_1();
 
             state._fsp--;
@@ -3574,12 +3574,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1398:1: ( rule__CheckBox__Group__0__Impl rule__CheckBox__Group__1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1399:2: rule__CheckBox__Group__0__Impl rule__CheckBox__Group__1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__CheckBox__Group__0__Impl_in_rule__CheckBox__Group__02742);
+            pushFollow(FOLLOW_rule__CheckBox__Group__0__Impl_in_rule__CheckBox__Group__02742);
             rule__CheckBox__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__CheckBox__Group__1_in_rule__CheckBox__Group__02745);
+            pushFollow(FOLLOW_rule__CheckBox__Group__1_in_rule__CheckBox__Group__02745);
             rule__CheckBox__Group__1();
 
             state._fsp--;
@@ -3649,12 +3649,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1429:1: ( rule__CheckBox__Group__1__Impl rule__CheckBox__Group__2 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1430:2: rule__CheckBox__Group__1__Impl rule__CheckBox__Group__2
             {
-            pushFollow(FollowSets000.FOLLOW_rule__CheckBox__Group__1__Impl_in_rule__CheckBox__Group__12803);
+            pushFollow(FOLLOW_rule__CheckBox__Group__1__Impl_in_rule__CheckBox__Group__12803);
             rule__CheckBox__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__CheckBox__Group__2_in_rule__CheckBox__Group__12806);
+            pushFollow(FOLLOW_rule__CheckBox__Group__2_in_rule__CheckBox__Group__12806);
             rule__CheckBox__Group__2();
 
             state._fsp--;
@@ -3691,7 +3691,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1443:1: 'CheckBox'
             {
              before(grammarAccess.getCheckBoxAccess().getCheckBoxKeyword_1()); 
-            match(input,21,FollowSets000.FOLLOW_21_in_rule__CheckBox__Group__1__Impl2834); 
+            match(input,21,FOLLOW_21_in_rule__CheckBox__Group__1__Impl2834); 
              after(grammarAccess.getCheckBoxAccess().getCheckBoxKeyword_1()); 
 
             }
@@ -3724,12 +3724,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1460:1: ( rule__CheckBox__Group__2__Impl rule__CheckBox__Group__3 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1461:2: rule__CheckBox__Group__2__Impl rule__CheckBox__Group__3
             {
-            pushFollow(FollowSets000.FOLLOW_rule__CheckBox__Group__2__Impl_in_rule__CheckBox__Group__22865);
+            pushFollow(FOLLOW_rule__CheckBox__Group__2__Impl_in_rule__CheckBox__Group__22865);
             rule__CheckBox__Group__2__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__CheckBox__Group__3_in_rule__CheckBox__Group__22868);
+            pushFollow(FOLLOW_rule__CheckBox__Group__3_in_rule__CheckBox__Group__22868);
             rule__CheckBox__Group__3();
 
             state._fsp--;
@@ -3766,7 +3766,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1474:1: '{'
             {
              before(grammarAccess.getCheckBoxAccess().getLeftCurlyBracketKeyword_2()); 
-            match(input,12,FollowSets000.FOLLOW_12_in_rule__CheckBox__Group__2__Impl2896); 
+            match(input,12,FOLLOW_12_in_rule__CheckBox__Group__2__Impl2896); 
              after(grammarAccess.getCheckBoxAccess().getLeftCurlyBracketKeyword_2()); 
 
             }
@@ -3799,12 +3799,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1491:1: ( rule__CheckBox__Group__3__Impl rule__CheckBox__Group__4 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1492:2: rule__CheckBox__Group__3__Impl rule__CheckBox__Group__4
             {
-            pushFollow(FollowSets000.FOLLOW_rule__CheckBox__Group__3__Impl_in_rule__CheckBox__Group__32927);
+            pushFollow(FOLLOW_rule__CheckBox__Group__3__Impl_in_rule__CheckBox__Group__32927);
             rule__CheckBox__Group__3__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__CheckBox__Group__4_in_rule__CheckBox__Group__32930);
+            pushFollow(FOLLOW_rule__CheckBox__Group__4_in_rule__CheckBox__Group__32930);
             rule__CheckBox__Group__4();
 
             state._fsp--;
@@ -3852,7 +3852,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
                 case 1 :
                     // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1506:2: rule__CheckBox__Group_3__0
                     {
-                    pushFollow(FollowSets000.FOLLOW_rule__CheckBox__Group_3__0_in_rule__CheckBox__Group__3__Impl2957);
+                    pushFollow(FOLLOW_rule__CheckBox__Group_3__0_in_rule__CheckBox__Group__3__Impl2957);
                     rule__CheckBox__Group_3__0();
 
                     state._fsp--;
@@ -3895,7 +3895,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1520:1: ( rule__CheckBox__Group__4__Impl )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1521:2: rule__CheckBox__Group__4__Impl
             {
-            pushFollow(FollowSets000.FOLLOW_rule__CheckBox__Group__4__Impl_in_rule__CheckBox__Group__42988);
+            pushFollow(FOLLOW_rule__CheckBox__Group__4__Impl_in_rule__CheckBox__Group__42988);
             rule__CheckBox__Group__4__Impl();
 
             state._fsp--;
@@ -3932,7 +3932,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1533:1: '}'
             {
              before(grammarAccess.getCheckBoxAccess().getRightCurlyBracketKeyword_4()); 
-            match(input,13,FollowSets000.FOLLOW_13_in_rule__CheckBox__Group__4__Impl3016); 
+            match(input,13,FOLLOW_13_in_rule__CheckBox__Group__4__Impl3016); 
              after(grammarAccess.getCheckBoxAccess().getRightCurlyBracketKeyword_4()); 
 
             }
@@ -3965,12 +3965,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1560:1: ( rule__CheckBox__Group_3__0__Impl rule__CheckBox__Group_3__1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1561:2: rule__CheckBox__Group_3__0__Impl rule__CheckBox__Group_3__1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__CheckBox__Group_3__0__Impl_in_rule__CheckBox__Group_3__03057);
+            pushFollow(FOLLOW_rule__CheckBox__Group_3__0__Impl_in_rule__CheckBox__Group_3__03057);
             rule__CheckBox__Group_3__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__CheckBox__Group_3__1_in_rule__CheckBox__Group_3__03060);
+            pushFollow(FOLLOW_rule__CheckBox__Group_3__1_in_rule__CheckBox__Group_3__03060);
             rule__CheckBox__Group_3__1();
 
             state._fsp--;
@@ -4007,7 +4007,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1574:1: 'value'
             {
              before(grammarAccess.getCheckBoxAccess().getValueKeyword_3_0()); 
-            match(input,22,FollowSets000.FOLLOW_22_in_rule__CheckBox__Group_3__0__Impl3088); 
+            match(input,22,FOLLOW_22_in_rule__CheckBox__Group_3__0__Impl3088); 
              after(grammarAccess.getCheckBoxAccess().getValueKeyword_3_0()); 
 
             }
@@ -4040,7 +4040,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1591:1: ( rule__CheckBox__Group_3__1__Impl )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1592:2: rule__CheckBox__Group_3__1__Impl
             {
-            pushFollow(FollowSets000.FOLLOW_rule__CheckBox__Group_3__1__Impl_in_rule__CheckBox__Group_3__13119);
+            pushFollow(FOLLOW_rule__CheckBox__Group_3__1__Impl_in_rule__CheckBox__Group_3__13119);
             rule__CheckBox__Group_3__1__Impl();
 
             state._fsp--;
@@ -4080,7 +4080,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1605:1: ( rule__CheckBox__ValueAssignment_3_1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1605:2: rule__CheckBox__ValueAssignment_3_1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__CheckBox__ValueAssignment_3_1_in_rule__CheckBox__Group_3__1__Impl3146);
+            pushFollow(FOLLOW_rule__CheckBox__ValueAssignment_3_1_in_rule__CheckBox__Group_3__1__Impl3146);
             rule__CheckBox__ValueAssignment_3_1();
 
             state._fsp--;
@@ -4120,12 +4120,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1623:1: ( rule__RadioButton__Group__0__Impl rule__RadioButton__Group__1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1624:2: rule__RadioButton__Group__0__Impl rule__RadioButton__Group__1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__RadioButton__Group__0__Impl_in_rule__RadioButton__Group__03180);
+            pushFollow(FOLLOW_rule__RadioButton__Group__0__Impl_in_rule__RadioButton__Group__03180);
             rule__RadioButton__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__RadioButton__Group__1_in_rule__RadioButton__Group__03183);
+            pushFollow(FOLLOW_rule__RadioButton__Group__1_in_rule__RadioButton__Group__03183);
             rule__RadioButton__Group__1();
 
             state._fsp--;
@@ -4195,12 +4195,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1654:1: ( rule__RadioButton__Group__1__Impl rule__RadioButton__Group__2 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1655:2: rule__RadioButton__Group__1__Impl rule__RadioButton__Group__2
             {
-            pushFollow(FollowSets000.FOLLOW_rule__RadioButton__Group__1__Impl_in_rule__RadioButton__Group__13241);
+            pushFollow(FOLLOW_rule__RadioButton__Group__1__Impl_in_rule__RadioButton__Group__13241);
             rule__RadioButton__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__RadioButton__Group__2_in_rule__RadioButton__Group__13244);
+            pushFollow(FOLLOW_rule__RadioButton__Group__2_in_rule__RadioButton__Group__13244);
             rule__RadioButton__Group__2();
 
             state._fsp--;
@@ -4237,7 +4237,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1668:1: 'RadioButton'
             {
              before(grammarAccess.getRadioButtonAccess().getRadioButtonKeyword_1()); 
-            match(input,23,FollowSets000.FOLLOW_23_in_rule__RadioButton__Group__1__Impl3272); 
+            match(input,23,FOLLOW_23_in_rule__RadioButton__Group__1__Impl3272); 
              after(grammarAccess.getRadioButtonAccess().getRadioButtonKeyword_1()); 
 
             }
@@ -4270,12 +4270,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1685:1: ( rule__RadioButton__Group__2__Impl rule__RadioButton__Group__3 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1686:2: rule__RadioButton__Group__2__Impl rule__RadioButton__Group__3
             {
-            pushFollow(FollowSets000.FOLLOW_rule__RadioButton__Group__2__Impl_in_rule__RadioButton__Group__23303);
+            pushFollow(FOLLOW_rule__RadioButton__Group__2__Impl_in_rule__RadioButton__Group__23303);
             rule__RadioButton__Group__2__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__RadioButton__Group__3_in_rule__RadioButton__Group__23306);
+            pushFollow(FOLLOW_rule__RadioButton__Group__3_in_rule__RadioButton__Group__23306);
             rule__RadioButton__Group__3();
 
             state._fsp--;
@@ -4312,7 +4312,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1699:1: '{'
             {
              before(grammarAccess.getRadioButtonAccess().getLeftCurlyBracketKeyword_2()); 
-            match(input,12,FollowSets000.FOLLOW_12_in_rule__RadioButton__Group__2__Impl3334); 
+            match(input,12,FOLLOW_12_in_rule__RadioButton__Group__2__Impl3334); 
              after(grammarAccess.getRadioButtonAccess().getLeftCurlyBracketKeyword_2()); 
 
             }
@@ -4345,12 +4345,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1716:1: ( rule__RadioButton__Group__3__Impl rule__RadioButton__Group__4 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1717:2: rule__RadioButton__Group__3__Impl rule__RadioButton__Group__4
             {
-            pushFollow(FollowSets000.FOLLOW_rule__RadioButton__Group__3__Impl_in_rule__RadioButton__Group__33365);
+            pushFollow(FOLLOW_rule__RadioButton__Group__3__Impl_in_rule__RadioButton__Group__33365);
             rule__RadioButton__Group__3__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__RadioButton__Group__4_in_rule__RadioButton__Group__33368);
+            pushFollow(FOLLOW_rule__RadioButton__Group__4_in_rule__RadioButton__Group__33368);
             rule__RadioButton__Group__4();
 
             state._fsp--;
@@ -4398,7 +4398,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
                 case 1 :
                     // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1731:2: rule__RadioButton__Group_3__0
                     {
-                    pushFollow(FollowSets000.FOLLOW_rule__RadioButton__Group_3__0_in_rule__RadioButton__Group__3__Impl3395);
+                    pushFollow(FOLLOW_rule__RadioButton__Group_3__0_in_rule__RadioButton__Group__3__Impl3395);
                     rule__RadioButton__Group_3__0();
 
                     state._fsp--;
@@ -4441,7 +4441,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1745:1: ( rule__RadioButton__Group__4__Impl )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1746:2: rule__RadioButton__Group__4__Impl
             {
-            pushFollow(FollowSets000.FOLLOW_rule__RadioButton__Group__4__Impl_in_rule__RadioButton__Group__43426);
+            pushFollow(FOLLOW_rule__RadioButton__Group__4__Impl_in_rule__RadioButton__Group__43426);
             rule__RadioButton__Group__4__Impl();
 
             state._fsp--;
@@ -4478,7 +4478,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1758:1: '}'
             {
              before(grammarAccess.getRadioButtonAccess().getRightCurlyBracketKeyword_4()); 
-            match(input,13,FollowSets000.FOLLOW_13_in_rule__RadioButton__Group__4__Impl3454); 
+            match(input,13,FOLLOW_13_in_rule__RadioButton__Group__4__Impl3454); 
              after(grammarAccess.getRadioButtonAccess().getRightCurlyBracketKeyword_4()); 
 
             }
@@ -4511,12 +4511,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1785:1: ( rule__RadioButton__Group_3__0__Impl rule__RadioButton__Group_3__1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1786:2: rule__RadioButton__Group_3__0__Impl rule__RadioButton__Group_3__1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__RadioButton__Group_3__0__Impl_in_rule__RadioButton__Group_3__03495);
+            pushFollow(FOLLOW_rule__RadioButton__Group_3__0__Impl_in_rule__RadioButton__Group_3__03495);
             rule__RadioButton__Group_3__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__RadioButton__Group_3__1_in_rule__RadioButton__Group_3__03498);
+            pushFollow(FOLLOW_rule__RadioButton__Group_3__1_in_rule__RadioButton__Group_3__03498);
             rule__RadioButton__Group_3__1();
 
             state._fsp--;
@@ -4553,7 +4553,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1799:1: 'value'
             {
              before(grammarAccess.getRadioButtonAccess().getValueKeyword_3_0()); 
-            match(input,22,FollowSets000.FOLLOW_22_in_rule__RadioButton__Group_3__0__Impl3526); 
+            match(input,22,FOLLOW_22_in_rule__RadioButton__Group_3__0__Impl3526); 
              after(grammarAccess.getRadioButtonAccess().getValueKeyword_3_0()); 
 
             }
@@ -4586,7 +4586,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1816:1: ( rule__RadioButton__Group_3__1__Impl )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1817:2: rule__RadioButton__Group_3__1__Impl
             {
-            pushFollow(FollowSets000.FOLLOW_rule__RadioButton__Group_3__1__Impl_in_rule__RadioButton__Group_3__13557);
+            pushFollow(FOLLOW_rule__RadioButton__Group_3__1__Impl_in_rule__RadioButton__Group_3__13557);
             rule__RadioButton__Group_3__1__Impl();
 
             state._fsp--;
@@ -4626,7 +4626,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1830:1: ( rule__RadioButton__ValueAssignment_3_1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1830:2: rule__RadioButton__ValueAssignment_3_1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__RadioButton__ValueAssignment_3_1_in_rule__RadioButton__Group_3__1__Impl3584);
+            pushFollow(FOLLOW_rule__RadioButton__ValueAssignment_3_1_in_rule__RadioButton__Group_3__1__Impl3584);
             rule__RadioButton__ValueAssignment_3_1();
 
             state._fsp--;
@@ -4666,12 +4666,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1848:1: ( rule__TextField__Group__0__Impl rule__TextField__Group__1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1849:2: rule__TextField__Group__0__Impl rule__TextField__Group__1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__TextField__Group__0__Impl_in_rule__TextField__Group__03618);
+            pushFollow(FOLLOW_rule__TextField__Group__0__Impl_in_rule__TextField__Group__03618);
             rule__TextField__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__TextField__Group__1_in_rule__TextField__Group__03621);
+            pushFollow(FOLLOW_rule__TextField__Group__1_in_rule__TextField__Group__03621);
             rule__TextField__Group__1();
 
             state._fsp--;
@@ -4741,12 +4741,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1879:1: ( rule__TextField__Group__1__Impl rule__TextField__Group__2 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1880:2: rule__TextField__Group__1__Impl rule__TextField__Group__2
             {
-            pushFollow(FollowSets000.FOLLOW_rule__TextField__Group__1__Impl_in_rule__TextField__Group__13679);
+            pushFollow(FOLLOW_rule__TextField__Group__1__Impl_in_rule__TextField__Group__13679);
             rule__TextField__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__TextField__Group__2_in_rule__TextField__Group__13682);
+            pushFollow(FOLLOW_rule__TextField__Group__2_in_rule__TextField__Group__13682);
             rule__TextField__Group__2();
 
             state._fsp--;
@@ -4783,7 +4783,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1893:1: 'TextField'
             {
              before(grammarAccess.getTextFieldAccess().getTextFieldKeyword_1()); 
-            match(input,24,FollowSets000.FOLLOW_24_in_rule__TextField__Group__1__Impl3710); 
+            match(input,24,FOLLOW_24_in_rule__TextField__Group__1__Impl3710); 
              after(grammarAccess.getTextFieldAccess().getTextFieldKeyword_1()); 
 
             }
@@ -4816,12 +4816,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1910:1: ( rule__TextField__Group__2__Impl rule__TextField__Group__3 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1911:2: rule__TextField__Group__2__Impl rule__TextField__Group__3
             {
-            pushFollow(FollowSets000.FOLLOW_rule__TextField__Group__2__Impl_in_rule__TextField__Group__23741);
+            pushFollow(FOLLOW_rule__TextField__Group__2__Impl_in_rule__TextField__Group__23741);
             rule__TextField__Group__2__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__TextField__Group__3_in_rule__TextField__Group__23744);
+            pushFollow(FOLLOW_rule__TextField__Group__3_in_rule__TextField__Group__23744);
             rule__TextField__Group__3();
 
             state._fsp--;
@@ -4858,7 +4858,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1924:1: '{'
             {
              before(grammarAccess.getTextFieldAccess().getLeftCurlyBracketKeyword_2()); 
-            match(input,12,FollowSets000.FOLLOW_12_in_rule__TextField__Group__2__Impl3772); 
+            match(input,12,FOLLOW_12_in_rule__TextField__Group__2__Impl3772); 
              after(grammarAccess.getTextFieldAccess().getLeftCurlyBracketKeyword_2()); 
 
             }
@@ -4891,12 +4891,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1941:1: ( rule__TextField__Group__3__Impl rule__TextField__Group__4 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1942:2: rule__TextField__Group__3__Impl rule__TextField__Group__4
             {
-            pushFollow(FollowSets000.FOLLOW_rule__TextField__Group__3__Impl_in_rule__TextField__Group__33803);
+            pushFollow(FOLLOW_rule__TextField__Group__3__Impl_in_rule__TextField__Group__33803);
             rule__TextField__Group__3__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__TextField__Group__4_in_rule__TextField__Group__33806);
+            pushFollow(FOLLOW_rule__TextField__Group__4_in_rule__TextField__Group__33806);
             rule__TextField__Group__4();
 
             state._fsp--;
@@ -4944,7 +4944,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
                 case 1 :
                     // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1956:2: rule__TextField__Group_3__0
                     {
-                    pushFollow(FollowSets000.FOLLOW_rule__TextField__Group_3__0_in_rule__TextField__Group__3__Impl3833);
+                    pushFollow(FOLLOW_rule__TextField__Group_3__0_in_rule__TextField__Group__3__Impl3833);
                     rule__TextField__Group_3__0();
 
                     state._fsp--;
@@ -4987,7 +4987,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1970:1: ( rule__TextField__Group__4__Impl )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1971:2: rule__TextField__Group__4__Impl
             {
-            pushFollow(FollowSets000.FOLLOW_rule__TextField__Group__4__Impl_in_rule__TextField__Group__43864);
+            pushFollow(FOLLOW_rule__TextField__Group__4__Impl_in_rule__TextField__Group__43864);
             rule__TextField__Group__4__Impl();
 
             state._fsp--;
@@ -5024,7 +5024,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:1983:1: '}'
             {
              before(grammarAccess.getTextFieldAccess().getRightCurlyBracketKeyword_4()); 
-            match(input,13,FollowSets000.FOLLOW_13_in_rule__TextField__Group__4__Impl3892); 
+            match(input,13,FOLLOW_13_in_rule__TextField__Group__4__Impl3892); 
              after(grammarAccess.getTextFieldAccess().getRightCurlyBracketKeyword_4()); 
 
             }
@@ -5057,12 +5057,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2010:1: ( rule__TextField__Group_3__0__Impl rule__TextField__Group_3__1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2011:2: rule__TextField__Group_3__0__Impl rule__TextField__Group_3__1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__TextField__Group_3__0__Impl_in_rule__TextField__Group_3__03933);
+            pushFollow(FOLLOW_rule__TextField__Group_3__0__Impl_in_rule__TextField__Group_3__03933);
             rule__TextField__Group_3__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__TextField__Group_3__1_in_rule__TextField__Group_3__03936);
+            pushFollow(FOLLOW_rule__TextField__Group_3__1_in_rule__TextField__Group_3__03936);
             rule__TextField__Group_3__1();
 
             state._fsp--;
@@ -5099,7 +5099,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2024:1: 'value'
             {
              before(grammarAccess.getTextFieldAccess().getValueKeyword_3_0()); 
-            match(input,22,FollowSets000.FOLLOW_22_in_rule__TextField__Group_3__0__Impl3964); 
+            match(input,22,FOLLOW_22_in_rule__TextField__Group_3__0__Impl3964); 
              after(grammarAccess.getTextFieldAccess().getValueKeyword_3_0()); 
 
             }
@@ -5132,7 +5132,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2041:1: ( rule__TextField__Group_3__1__Impl )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2042:2: rule__TextField__Group_3__1__Impl
             {
-            pushFollow(FollowSets000.FOLLOW_rule__TextField__Group_3__1__Impl_in_rule__TextField__Group_3__13995);
+            pushFollow(FOLLOW_rule__TextField__Group_3__1__Impl_in_rule__TextField__Group_3__13995);
             rule__TextField__Group_3__1__Impl();
 
             state._fsp--;
@@ -5172,7 +5172,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2055:1: ( rule__TextField__ValueAssignment_3_1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2055:2: rule__TextField__ValueAssignment_3_1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__TextField__ValueAssignment_3_1_in_rule__TextField__Group_3__1__Impl4022);
+            pushFollow(FOLLOW_rule__TextField__ValueAssignment_3_1_in_rule__TextField__Group_3__1__Impl4022);
             rule__TextField__ValueAssignment_3_1();
 
             state._fsp--;
@@ -5212,12 +5212,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2073:1: ( rule__ComboBox__Group__0__Impl rule__ComboBox__Group__1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2074:2: rule__ComboBox__Group__0__Impl rule__ComboBox__Group__1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__ComboBox__Group__0__Impl_in_rule__ComboBox__Group__04056);
+            pushFollow(FOLLOW_rule__ComboBox__Group__0__Impl_in_rule__ComboBox__Group__04056);
             rule__ComboBox__Group__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__ComboBox__Group__1_in_rule__ComboBox__Group__04059);
+            pushFollow(FOLLOW_rule__ComboBox__Group__1_in_rule__ComboBox__Group__04059);
             rule__ComboBox__Group__1();
 
             state._fsp--;
@@ -5287,12 +5287,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2104:1: ( rule__ComboBox__Group__1__Impl rule__ComboBox__Group__2 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2105:2: rule__ComboBox__Group__1__Impl rule__ComboBox__Group__2
             {
-            pushFollow(FollowSets000.FOLLOW_rule__ComboBox__Group__1__Impl_in_rule__ComboBox__Group__14117);
+            pushFollow(FOLLOW_rule__ComboBox__Group__1__Impl_in_rule__ComboBox__Group__14117);
             rule__ComboBox__Group__1__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__ComboBox__Group__2_in_rule__ComboBox__Group__14120);
+            pushFollow(FOLLOW_rule__ComboBox__Group__2_in_rule__ComboBox__Group__14120);
             rule__ComboBox__Group__2();
 
             state._fsp--;
@@ -5329,7 +5329,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2118:1: 'ComboBox'
             {
              before(grammarAccess.getComboBoxAccess().getComboBoxKeyword_1()); 
-            match(input,25,FollowSets000.FOLLOW_25_in_rule__ComboBox__Group__1__Impl4148); 
+            match(input,25,FOLLOW_25_in_rule__ComboBox__Group__1__Impl4148); 
              after(grammarAccess.getComboBoxAccess().getComboBoxKeyword_1()); 
 
             }
@@ -5362,12 +5362,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2135:1: ( rule__ComboBox__Group__2__Impl rule__ComboBox__Group__3 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2136:2: rule__ComboBox__Group__2__Impl rule__ComboBox__Group__3
             {
-            pushFollow(FollowSets000.FOLLOW_rule__ComboBox__Group__2__Impl_in_rule__ComboBox__Group__24179);
+            pushFollow(FOLLOW_rule__ComboBox__Group__2__Impl_in_rule__ComboBox__Group__24179);
             rule__ComboBox__Group__2__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__ComboBox__Group__3_in_rule__ComboBox__Group__24182);
+            pushFollow(FOLLOW_rule__ComboBox__Group__3_in_rule__ComboBox__Group__24182);
             rule__ComboBox__Group__3();
 
             state._fsp--;
@@ -5404,7 +5404,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2149:1: '{'
             {
              before(grammarAccess.getComboBoxAccess().getLeftCurlyBracketKeyword_2()); 
-            match(input,12,FollowSets000.FOLLOW_12_in_rule__ComboBox__Group__2__Impl4210); 
+            match(input,12,FOLLOW_12_in_rule__ComboBox__Group__2__Impl4210); 
              after(grammarAccess.getComboBoxAccess().getLeftCurlyBracketKeyword_2()); 
 
             }
@@ -5437,12 +5437,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2166:1: ( rule__ComboBox__Group__3__Impl rule__ComboBox__Group__4 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2167:2: rule__ComboBox__Group__3__Impl rule__ComboBox__Group__4
             {
-            pushFollow(FollowSets000.FOLLOW_rule__ComboBox__Group__3__Impl_in_rule__ComboBox__Group__34241);
+            pushFollow(FOLLOW_rule__ComboBox__Group__3__Impl_in_rule__ComboBox__Group__34241);
             rule__ComboBox__Group__3__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__ComboBox__Group__4_in_rule__ComboBox__Group__34244);
+            pushFollow(FOLLOW_rule__ComboBox__Group__4_in_rule__ComboBox__Group__34244);
             rule__ComboBox__Group__4();
 
             state._fsp--;
@@ -5490,7 +5490,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
                 case 1 :
                     // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2181:2: rule__ComboBox__Group_3__0
                     {
-                    pushFollow(FollowSets000.FOLLOW_rule__ComboBox__Group_3__0_in_rule__ComboBox__Group__3__Impl4271);
+                    pushFollow(FOLLOW_rule__ComboBox__Group_3__0_in_rule__ComboBox__Group__3__Impl4271);
                     rule__ComboBox__Group_3__0();
 
                     state._fsp--;
@@ -5533,7 +5533,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2195:1: ( rule__ComboBox__Group__4__Impl )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2196:2: rule__ComboBox__Group__4__Impl
             {
-            pushFollow(FollowSets000.FOLLOW_rule__ComboBox__Group__4__Impl_in_rule__ComboBox__Group__44302);
+            pushFollow(FOLLOW_rule__ComboBox__Group__4__Impl_in_rule__ComboBox__Group__44302);
             rule__ComboBox__Group__4__Impl();
 
             state._fsp--;
@@ -5570,7 +5570,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2208:1: '}'
             {
              before(grammarAccess.getComboBoxAccess().getRightCurlyBracketKeyword_4()); 
-            match(input,13,FollowSets000.FOLLOW_13_in_rule__ComboBox__Group__4__Impl4330); 
+            match(input,13,FOLLOW_13_in_rule__ComboBox__Group__4__Impl4330); 
              after(grammarAccess.getComboBoxAccess().getRightCurlyBracketKeyword_4()); 
 
             }
@@ -5603,12 +5603,12 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2235:1: ( rule__ComboBox__Group_3__0__Impl rule__ComboBox__Group_3__1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2236:2: rule__ComboBox__Group_3__0__Impl rule__ComboBox__Group_3__1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__ComboBox__Group_3__0__Impl_in_rule__ComboBox__Group_3__04371);
+            pushFollow(FOLLOW_rule__ComboBox__Group_3__0__Impl_in_rule__ComboBox__Group_3__04371);
             rule__ComboBox__Group_3__0__Impl();
 
             state._fsp--;
 
-            pushFollow(FollowSets000.FOLLOW_rule__ComboBox__Group_3__1_in_rule__ComboBox__Group_3__04374);
+            pushFollow(FOLLOW_rule__ComboBox__Group_3__1_in_rule__ComboBox__Group_3__04374);
             rule__ComboBox__Group_3__1();
 
             state._fsp--;
@@ -5645,7 +5645,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2249:1: 'value'
             {
              before(grammarAccess.getComboBoxAccess().getValueKeyword_3_0()); 
-            match(input,22,FollowSets000.FOLLOW_22_in_rule__ComboBox__Group_3__0__Impl4402); 
+            match(input,22,FOLLOW_22_in_rule__ComboBox__Group_3__0__Impl4402); 
              after(grammarAccess.getComboBoxAccess().getValueKeyword_3_0()); 
 
             }
@@ -5678,7 +5678,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2266:1: ( rule__ComboBox__Group_3__1__Impl )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2267:2: rule__ComboBox__Group_3__1__Impl
             {
-            pushFollow(FollowSets000.FOLLOW_rule__ComboBox__Group_3__1__Impl_in_rule__ComboBox__Group_3__14433);
+            pushFollow(FOLLOW_rule__ComboBox__Group_3__1__Impl_in_rule__ComboBox__Group_3__14433);
             rule__ComboBox__Group_3__1__Impl();
 
             state._fsp--;
@@ -5718,7 +5718,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2280:1: ( rule__ComboBox__ValueAssignment_3_1 )
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2280:2: rule__ComboBox__ValueAssignment_3_1
             {
-            pushFollow(FollowSets000.FOLLOW_rule__ComboBox__ValueAssignment_3_1_in_rule__ComboBox__Group_3__1__Impl4460);
+            pushFollow(FOLLOW_rule__ComboBox__ValueAssignment_3_1_in_rule__ComboBox__Group_3__1__Impl4460);
             rule__ComboBox__ValueAssignment_3_1();
 
             state._fsp--;
@@ -5762,7 +5762,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2301:1: ruleEString
             {
              before(grammarAccess.getPollSystemAccess().getTitleEStringParserRuleCall_3_1_0()); 
-            pushFollow(FollowSets000.FOLLOW_ruleEString_in_rule__PollSystem__TitleAssignment_3_14499);
+            pushFollow(FOLLOW_ruleEString_in_rule__PollSystem__TitleAssignment_3_14499);
             ruleEString();
 
             state._fsp--;
@@ -5803,7 +5803,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2316:1: ruleUiModel
             {
              before(grammarAccess.getPollSystemAccess().getModelsUiModelParserRuleCall_4_2_0()); 
-            pushFollow(FollowSets000.FOLLOW_ruleUiModel_in_rule__PollSystem__ModelsAssignment_4_24530);
+            pushFollow(FOLLOW_ruleUiModel_in_rule__PollSystem__ModelsAssignment_4_24530);
             ruleUiModel();
 
             state._fsp--;
@@ -5844,7 +5844,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2331:1: ruleUiModel
             {
              before(grammarAccess.getPollSystemAccess().getModelsUiModelParserRuleCall_4_3_1_0()); 
-            pushFollow(FollowSets000.FOLLOW_ruleUiModel_in_rule__PollSystem__ModelsAssignment_4_3_14561);
+            pushFollow(FOLLOW_ruleUiModel_in_rule__PollSystem__ModelsAssignment_4_3_14561);
             ruleUiModel();
 
             state._fsp--;
@@ -5885,7 +5885,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2346:1: ruleEString
             {
              before(grammarAccess.getUiModelAccess().getIdEStringParserRuleCall_3_1_0()); 
-            pushFollow(FollowSets000.FOLLOW_ruleEString_in_rule__UiModel__IdAssignment_3_14592);
+            pushFollow(FOLLOW_ruleEString_in_rule__UiModel__IdAssignment_3_14592);
             ruleEString();
 
             state._fsp--;
@@ -5926,7 +5926,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2361:1: ruleEString
             {
              before(grammarAccess.getUiModelAccess().getLaQuestionEStringParserRuleCall_4_1_0()); 
-            pushFollow(FollowSets000.FOLLOW_ruleEString_in_rule__UiModel__LaQuestionAssignment_4_14623);
+            pushFollow(FOLLOW_ruleEString_in_rule__UiModel__LaQuestionAssignment_4_14623);
             ruleEString();
 
             state._fsp--;
@@ -5967,7 +5967,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2376:1: ruleWidget
             {
              before(grammarAccess.getUiModelAccess().getWidgetsWidgetParserRuleCall_5_2_0()); 
-            pushFollow(FollowSets000.FOLLOW_ruleWidget_in_rule__UiModel__WidgetsAssignment_5_24654);
+            pushFollow(FOLLOW_ruleWidget_in_rule__UiModel__WidgetsAssignment_5_24654);
             ruleWidget();
 
             state._fsp--;
@@ -6008,7 +6008,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2391:1: ruleWidget
             {
              before(grammarAccess.getUiModelAccess().getWidgetsWidgetParserRuleCall_5_3_1_0()); 
-            pushFollow(FollowSets000.FOLLOW_ruleWidget_in_rule__UiModel__WidgetsAssignment_5_3_14685);
+            pushFollow(FOLLOW_ruleWidget_in_rule__UiModel__WidgetsAssignment_5_3_14685);
             ruleWidget();
 
             state._fsp--;
@@ -6049,7 +6049,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2406:1: ruleEString
             {
              before(grammarAccess.getCheckBoxAccess().getValueEStringParserRuleCall_3_1_0()); 
-            pushFollow(FollowSets000.FOLLOW_ruleEString_in_rule__CheckBox__ValueAssignment_3_14716);
+            pushFollow(FOLLOW_ruleEString_in_rule__CheckBox__ValueAssignment_3_14716);
             ruleEString();
 
             state._fsp--;
@@ -6090,7 +6090,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2421:1: ruleEString
             {
              before(grammarAccess.getRadioButtonAccess().getValueEStringParserRuleCall_3_1_0()); 
-            pushFollow(FollowSets000.FOLLOW_ruleEString_in_rule__RadioButton__ValueAssignment_3_14747);
+            pushFollow(FOLLOW_ruleEString_in_rule__RadioButton__ValueAssignment_3_14747);
             ruleEString();
 
             state._fsp--;
@@ -6131,7 +6131,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2436:1: ruleEString
             {
              before(grammarAccess.getTextFieldAccess().getValueEStringParserRuleCall_3_1_0()); 
-            pushFollow(FollowSets000.FOLLOW_ruleEString_in_rule__TextField__ValueAssignment_3_14778);
+            pushFollow(FOLLOW_ruleEString_in_rule__TextField__ValueAssignment_3_14778);
             ruleEString();
 
             state._fsp--;
@@ -6172,7 +6172,7 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
             // ../fr.istic.idm.PivotMM.ui/src-gen/fr/istic/idm/ui/contentassist/antlr/internal/InternalPivotMMDsl.g:2451:1: ruleEString
             {
              before(grammarAccess.getComboBoxAccess().getValueEStringParserRuleCall_3_1_0()); 
-            pushFollow(FollowSets000.FOLLOW_ruleEString_in_rule__ComboBox__ValueAssignment_3_14809);
+            pushFollow(FOLLOW_ruleEString_in_rule__ComboBox__ValueAssignment_3_14809);
             ruleEString();
 
             state._fsp--;
@@ -6203,210 +6203,206 @@ public class InternalPivotMMDslParser extends AbstractInternalContentAssistParse
 
  
 
-    
-    private static class FollowSets000 {
-        public static final BitSet FOLLOW_rulePollSystem_in_entryRulePollSystem61 = new BitSet(new long[]{0x0000000000000000L});
-        public static final BitSet FOLLOW_EOF_in_entryRulePollSystem68 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group__0_in_rulePollSystem94 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleWidget_in_entryRuleWidget121 = new BitSet(new long[]{0x0000000000000000L});
-        public static final BitSet FOLLOW_EOF_in_entryRuleWidget128 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__Widget__Alternatives_in_ruleWidget154 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleUiModel_in_entryRuleUiModel181 = new BitSet(new long[]{0x0000000000000000L});
-        public static final BitSet FOLLOW_EOF_in_entryRuleUiModel188 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__Group__0_in_ruleUiModel214 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleEString_in_entryRuleEString241 = new BitSet(new long[]{0x0000000000000000L});
-        public static final BitSet FOLLOW_EOF_in_entryRuleEString248 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__EString__Alternatives_in_ruleEString274 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleCheckBox_in_entryRuleCheckBox301 = new BitSet(new long[]{0x0000000000000000L});
-        public static final BitSet FOLLOW_EOF_in_entryRuleCheckBox308 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__CheckBox__Group__0_in_ruleCheckBox334 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleRadioButton_in_entryRuleRadioButton361 = new BitSet(new long[]{0x0000000000000000L});
-        public static final BitSet FOLLOW_EOF_in_entryRuleRadioButton368 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__RadioButton__Group__0_in_ruleRadioButton394 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleTextField_in_entryRuleTextField421 = new BitSet(new long[]{0x0000000000000000L});
-        public static final BitSet FOLLOW_EOF_in_entryRuleTextField428 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__TextField__Group__0_in_ruleTextField454 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleComboBox_in_entryRuleComboBox481 = new BitSet(new long[]{0x0000000000000000L});
-        public static final BitSet FOLLOW_EOF_in_entryRuleComboBox488 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__ComboBox__Group__0_in_ruleComboBox514 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleCheckBox_in_rule__Widget__Alternatives550 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleRadioButton_in_rule__Widget__Alternatives567 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleTextField_in_rule__Widget__Alternatives584 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleComboBox_in_rule__Widget__Alternatives601 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_RULE_STRING_in_rule__EString__Alternatives633 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_RULE_ID_in_rule__EString__Alternatives650 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group__0__Impl_in_rule__PollSystem__Group__0680 = new BitSet(new long[]{0x0000000000000800L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group__1_in_rule__PollSystem__Group__0683 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group__1__Impl_in_rule__PollSystem__Group__1741 = new BitSet(new long[]{0x0000000000001000L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group__2_in_rule__PollSystem__Group__1744 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_11_in_rule__PollSystem__Group__1__Impl772 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group__2__Impl_in_rule__PollSystem__Group__2803 = new BitSet(new long[]{0x000000000000E000L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group__3_in_rule__PollSystem__Group__2806 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_12_in_rule__PollSystem__Group__2__Impl834 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group__3__Impl_in_rule__PollSystem__Group__3865 = new BitSet(new long[]{0x000000000000E000L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group__4_in_rule__PollSystem__Group__3868 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group_3__0_in_rule__PollSystem__Group__3__Impl895 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group__4__Impl_in_rule__PollSystem__Group__4926 = new BitSet(new long[]{0x000000000000E000L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group__5_in_rule__PollSystem__Group__4929 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group_4__0_in_rule__PollSystem__Group__4__Impl956 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group__5__Impl_in_rule__PollSystem__Group__5987 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_13_in_rule__PollSystem__Group__5__Impl1015 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group_3__0__Impl_in_rule__PollSystem__Group_3__01058 = new BitSet(new long[]{0x0000000000000030L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group_3__1_in_rule__PollSystem__Group_3__01061 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_14_in_rule__PollSystem__Group_3__0__Impl1089 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group_3__1__Impl_in_rule__PollSystem__Group_3__11120 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__PollSystem__TitleAssignment_3_1_in_rule__PollSystem__Group_3__1__Impl1147 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group_4__0__Impl_in_rule__PollSystem__Group_4__01181 = new BitSet(new long[]{0x0000000000001000L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group_4__1_in_rule__PollSystem__Group_4__01184 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_15_in_rule__PollSystem__Group_4__0__Impl1212 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group_4__1__Impl_in_rule__PollSystem__Group_4__11243 = new BitSet(new long[]{0x0000000000020000L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group_4__2_in_rule__PollSystem__Group_4__11246 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_12_in_rule__PollSystem__Group_4__1__Impl1274 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group_4__2__Impl_in_rule__PollSystem__Group_4__21305 = new BitSet(new long[]{0x0000000000012000L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group_4__3_in_rule__PollSystem__Group_4__21308 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__PollSystem__ModelsAssignment_4_2_in_rule__PollSystem__Group_4__2__Impl1335 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group_4__3__Impl_in_rule__PollSystem__Group_4__31365 = new BitSet(new long[]{0x0000000000012000L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group_4__4_in_rule__PollSystem__Group_4__31368 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group_4_3__0_in_rule__PollSystem__Group_4__3__Impl1395 = new BitSet(new long[]{0x0000000000010002L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group_4__4__Impl_in_rule__PollSystem__Group_4__41426 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_13_in_rule__PollSystem__Group_4__4__Impl1454 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group_4_3__0__Impl_in_rule__PollSystem__Group_4_3__01495 = new BitSet(new long[]{0x0000000000020000L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group_4_3__1_in_rule__PollSystem__Group_4_3__01498 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_16_in_rule__PollSystem__Group_4_3__0__Impl1526 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__PollSystem__Group_4_3__1__Impl_in_rule__PollSystem__Group_4_3__11557 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__PollSystem__ModelsAssignment_4_3_1_in_rule__PollSystem__Group_4_3__1__Impl1584 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__Group__0__Impl_in_rule__UiModel__Group__01618 = new BitSet(new long[]{0x0000000000020000L});
-        public static final BitSet FOLLOW_rule__UiModel__Group__1_in_rule__UiModel__Group__01621 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__Group__1__Impl_in_rule__UiModel__Group__11679 = new BitSet(new long[]{0x0000000000001000L});
-        public static final BitSet FOLLOW_rule__UiModel__Group__2_in_rule__UiModel__Group__11682 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_17_in_rule__UiModel__Group__1__Impl1710 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__Group__2__Impl_in_rule__UiModel__Group__21741 = new BitSet(new long[]{0x00000000001C2000L});
-        public static final BitSet FOLLOW_rule__UiModel__Group__3_in_rule__UiModel__Group__21744 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_12_in_rule__UiModel__Group__2__Impl1772 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__Group__3__Impl_in_rule__UiModel__Group__31803 = new BitSet(new long[]{0x00000000001C2000L});
-        public static final BitSet FOLLOW_rule__UiModel__Group__4_in_rule__UiModel__Group__31806 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__Group_3__0_in_rule__UiModel__Group__3__Impl1833 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__Group__4__Impl_in_rule__UiModel__Group__41864 = new BitSet(new long[]{0x00000000001C2000L});
-        public static final BitSet FOLLOW_rule__UiModel__Group__5_in_rule__UiModel__Group__41867 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__Group_4__0_in_rule__UiModel__Group__4__Impl1894 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__Group__5__Impl_in_rule__UiModel__Group__51925 = new BitSet(new long[]{0x00000000001C2000L});
-        public static final BitSet FOLLOW_rule__UiModel__Group__6_in_rule__UiModel__Group__51928 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__Group_5__0_in_rule__UiModel__Group__5__Impl1955 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__Group__6__Impl_in_rule__UiModel__Group__61986 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_13_in_rule__UiModel__Group__6__Impl2014 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__Group_3__0__Impl_in_rule__UiModel__Group_3__02059 = new BitSet(new long[]{0x0000000000000030L});
-        public static final BitSet FOLLOW_rule__UiModel__Group_3__1_in_rule__UiModel__Group_3__02062 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_18_in_rule__UiModel__Group_3__0__Impl2090 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__Group_3__1__Impl_in_rule__UiModel__Group_3__12121 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__IdAssignment_3_1_in_rule__UiModel__Group_3__1__Impl2148 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__Group_4__0__Impl_in_rule__UiModel__Group_4__02182 = new BitSet(new long[]{0x0000000000000030L});
-        public static final BitSet FOLLOW_rule__UiModel__Group_4__1_in_rule__UiModel__Group_4__02185 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_19_in_rule__UiModel__Group_4__0__Impl2213 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__Group_4__1__Impl_in_rule__UiModel__Group_4__12244 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__LaQuestionAssignment_4_1_in_rule__UiModel__Group_4__1__Impl2271 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__Group_5__0__Impl_in_rule__UiModel__Group_5__02305 = new BitSet(new long[]{0x0000000000001000L});
-        public static final BitSet FOLLOW_rule__UiModel__Group_5__1_in_rule__UiModel__Group_5__02308 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_20_in_rule__UiModel__Group_5__0__Impl2336 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__Group_5__1__Impl_in_rule__UiModel__Group_5__12367 = new BitSet(new long[]{0x0000000003A00000L});
-        public static final BitSet FOLLOW_rule__UiModel__Group_5__2_in_rule__UiModel__Group_5__12370 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_12_in_rule__UiModel__Group_5__1__Impl2398 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__Group_5__2__Impl_in_rule__UiModel__Group_5__22429 = new BitSet(new long[]{0x0000000000012000L});
-        public static final BitSet FOLLOW_rule__UiModel__Group_5__3_in_rule__UiModel__Group_5__22432 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__WidgetsAssignment_5_2_in_rule__UiModel__Group_5__2__Impl2459 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__Group_5__3__Impl_in_rule__UiModel__Group_5__32489 = new BitSet(new long[]{0x0000000000012000L});
-        public static final BitSet FOLLOW_rule__UiModel__Group_5__4_in_rule__UiModel__Group_5__32492 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__Group_5_3__0_in_rule__UiModel__Group_5__3__Impl2519 = new BitSet(new long[]{0x0000000000010002L});
-        public static final BitSet FOLLOW_rule__UiModel__Group_5__4__Impl_in_rule__UiModel__Group_5__42550 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_13_in_rule__UiModel__Group_5__4__Impl2578 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__Group_5_3__0__Impl_in_rule__UiModel__Group_5_3__02619 = new BitSet(new long[]{0x0000000003A00000L});
-        public static final BitSet FOLLOW_rule__UiModel__Group_5_3__1_in_rule__UiModel__Group_5_3__02622 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_16_in_rule__UiModel__Group_5_3__0__Impl2650 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__Group_5_3__1__Impl_in_rule__UiModel__Group_5_3__12681 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__UiModel__WidgetsAssignment_5_3_1_in_rule__UiModel__Group_5_3__1__Impl2708 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__CheckBox__Group__0__Impl_in_rule__CheckBox__Group__02742 = new BitSet(new long[]{0x0000000000200000L});
-        public static final BitSet FOLLOW_rule__CheckBox__Group__1_in_rule__CheckBox__Group__02745 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__CheckBox__Group__1__Impl_in_rule__CheckBox__Group__12803 = new BitSet(new long[]{0x0000000000001000L});
-        public static final BitSet FOLLOW_rule__CheckBox__Group__2_in_rule__CheckBox__Group__12806 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_21_in_rule__CheckBox__Group__1__Impl2834 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__CheckBox__Group__2__Impl_in_rule__CheckBox__Group__22865 = new BitSet(new long[]{0x0000000000402000L});
-        public static final BitSet FOLLOW_rule__CheckBox__Group__3_in_rule__CheckBox__Group__22868 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_12_in_rule__CheckBox__Group__2__Impl2896 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__CheckBox__Group__3__Impl_in_rule__CheckBox__Group__32927 = new BitSet(new long[]{0x0000000000402000L});
-        public static final BitSet FOLLOW_rule__CheckBox__Group__4_in_rule__CheckBox__Group__32930 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__CheckBox__Group_3__0_in_rule__CheckBox__Group__3__Impl2957 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__CheckBox__Group__4__Impl_in_rule__CheckBox__Group__42988 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_13_in_rule__CheckBox__Group__4__Impl3016 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__CheckBox__Group_3__0__Impl_in_rule__CheckBox__Group_3__03057 = new BitSet(new long[]{0x0000000000000030L});
-        public static final BitSet FOLLOW_rule__CheckBox__Group_3__1_in_rule__CheckBox__Group_3__03060 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_22_in_rule__CheckBox__Group_3__0__Impl3088 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__CheckBox__Group_3__1__Impl_in_rule__CheckBox__Group_3__13119 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__CheckBox__ValueAssignment_3_1_in_rule__CheckBox__Group_3__1__Impl3146 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__RadioButton__Group__0__Impl_in_rule__RadioButton__Group__03180 = new BitSet(new long[]{0x0000000000800000L});
-        public static final BitSet FOLLOW_rule__RadioButton__Group__1_in_rule__RadioButton__Group__03183 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__RadioButton__Group__1__Impl_in_rule__RadioButton__Group__13241 = new BitSet(new long[]{0x0000000000001000L});
-        public static final BitSet FOLLOW_rule__RadioButton__Group__2_in_rule__RadioButton__Group__13244 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_23_in_rule__RadioButton__Group__1__Impl3272 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__RadioButton__Group__2__Impl_in_rule__RadioButton__Group__23303 = new BitSet(new long[]{0x0000000000402000L});
-        public static final BitSet FOLLOW_rule__RadioButton__Group__3_in_rule__RadioButton__Group__23306 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_12_in_rule__RadioButton__Group__2__Impl3334 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__RadioButton__Group__3__Impl_in_rule__RadioButton__Group__33365 = new BitSet(new long[]{0x0000000000402000L});
-        public static final BitSet FOLLOW_rule__RadioButton__Group__4_in_rule__RadioButton__Group__33368 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__RadioButton__Group_3__0_in_rule__RadioButton__Group__3__Impl3395 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__RadioButton__Group__4__Impl_in_rule__RadioButton__Group__43426 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_13_in_rule__RadioButton__Group__4__Impl3454 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__RadioButton__Group_3__0__Impl_in_rule__RadioButton__Group_3__03495 = new BitSet(new long[]{0x0000000000000030L});
-        public static final BitSet FOLLOW_rule__RadioButton__Group_3__1_in_rule__RadioButton__Group_3__03498 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_22_in_rule__RadioButton__Group_3__0__Impl3526 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__RadioButton__Group_3__1__Impl_in_rule__RadioButton__Group_3__13557 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__RadioButton__ValueAssignment_3_1_in_rule__RadioButton__Group_3__1__Impl3584 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__TextField__Group__0__Impl_in_rule__TextField__Group__03618 = new BitSet(new long[]{0x0000000001000000L});
-        public static final BitSet FOLLOW_rule__TextField__Group__1_in_rule__TextField__Group__03621 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__TextField__Group__1__Impl_in_rule__TextField__Group__13679 = new BitSet(new long[]{0x0000000000001000L});
-        public static final BitSet FOLLOW_rule__TextField__Group__2_in_rule__TextField__Group__13682 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_24_in_rule__TextField__Group__1__Impl3710 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__TextField__Group__2__Impl_in_rule__TextField__Group__23741 = new BitSet(new long[]{0x0000000000402000L});
-        public static final BitSet FOLLOW_rule__TextField__Group__3_in_rule__TextField__Group__23744 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_12_in_rule__TextField__Group__2__Impl3772 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__TextField__Group__3__Impl_in_rule__TextField__Group__33803 = new BitSet(new long[]{0x0000000000402000L});
-        public static final BitSet FOLLOW_rule__TextField__Group__4_in_rule__TextField__Group__33806 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__TextField__Group_3__0_in_rule__TextField__Group__3__Impl3833 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__TextField__Group__4__Impl_in_rule__TextField__Group__43864 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_13_in_rule__TextField__Group__4__Impl3892 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__TextField__Group_3__0__Impl_in_rule__TextField__Group_3__03933 = new BitSet(new long[]{0x0000000000000030L});
-        public static final BitSet FOLLOW_rule__TextField__Group_3__1_in_rule__TextField__Group_3__03936 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_22_in_rule__TextField__Group_3__0__Impl3964 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__TextField__Group_3__1__Impl_in_rule__TextField__Group_3__13995 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__TextField__ValueAssignment_3_1_in_rule__TextField__Group_3__1__Impl4022 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__ComboBox__Group__0__Impl_in_rule__ComboBox__Group__04056 = new BitSet(new long[]{0x0000000003A00000L});
-        public static final BitSet FOLLOW_rule__ComboBox__Group__1_in_rule__ComboBox__Group__04059 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__ComboBox__Group__1__Impl_in_rule__ComboBox__Group__14117 = new BitSet(new long[]{0x0000000000001000L});
-        public static final BitSet FOLLOW_rule__ComboBox__Group__2_in_rule__ComboBox__Group__14120 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_25_in_rule__ComboBox__Group__1__Impl4148 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__ComboBox__Group__2__Impl_in_rule__ComboBox__Group__24179 = new BitSet(new long[]{0x0000000000402000L});
-        public static final BitSet FOLLOW_rule__ComboBox__Group__3_in_rule__ComboBox__Group__24182 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_12_in_rule__ComboBox__Group__2__Impl4210 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__ComboBox__Group__3__Impl_in_rule__ComboBox__Group__34241 = new BitSet(new long[]{0x0000000000402000L});
-        public static final BitSet FOLLOW_rule__ComboBox__Group__4_in_rule__ComboBox__Group__34244 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__ComboBox__Group_3__0_in_rule__ComboBox__Group__3__Impl4271 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__ComboBox__Group__4__Impl_in_rule__ComboBox__Group__44302 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_13_in_rule__ComboBox__Group__4__Impl4330 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__ComboBox__Group_3__0__Impl_in_rule__ComboBox__Group_3__04371 = new BitSet(new long[]{0x0000000000000030L});
-        public static final BitSet FOLLOW_rule__ComboBox__Group_3__1_in_rule__ComboBox__Group_3__04374 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_22_in_rule__ComboBox__Group_3__0__Impl4402 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__ComboBox__Group_3__1__Impl_in_rule__ComboBox__Group_3__14433 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_rule__ComboBox__ValueAssignment_3_1_in_rule__ComboBox__Group_3__1__Impl4460 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleEString_in_rule__PollSystem__TitleAssignment_3_14499 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleUiModel_in_rule__PollSystem__ModelsAssignment_4_24530 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleUiModel_in_rule__PollSystem__ModelsAssignment_4_3_14561 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleEString_in_rule__UiModel__IdAssignment_3_14592 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleEString_in_rule__UiModel__LaQuestionAssignment_4_14623 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleWidget_in_rule__UiModel__WidgetsAssignment_5_24654 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleWidget_in_rule__UiModel__WidgetsAssignment_5_3_14685 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleEString_in_rule__CheckBox__ValueAssignment_3_14716 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleEString_in_rule__RadioButton__ValueAssignment_3_14747 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleEString_in_rule__TextField__ValueAssignment_3_14778 = new BitSet(new long[]{0x0000000000000002L});
-        public static final BitSet FOLLOW_ruleEString_in_rule__ComboBox__ValueAssignment_3_14809 = new BitSet(new long[]{0x0000000000000002L});
-    }
-
+    public static final BitSet FOLLOW_rulePollSystem_in_entryRulePollSystem61 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRulePollSystem68 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group__0_in_rulePollSystem94 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleWidget_in_entryRuleWidget121 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleWidget128 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__Widget__Alternatives_in_ruleWidget154 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleUiModel_in_entryRuleUiModel181 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleUiModel188 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__Group__0_in_ruleUiModel214 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleEString_in_entryRuleEString241 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleEString248 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__EString__Alternatives_in_ruleEString274 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleCheckBox_in_entryRuleCheckBox301 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleCheckBox308 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__CheckBox__Group__0_in_ruleCheckBox334 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleRadioButton_in_entryRuleRadioButton361 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleRadioButton368 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__RadioButton__Group__0_in_ruleRadioButton394 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleTextField_in_entryRuleTextField421 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleTextField428 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__TextField__Group__0_in_ruleTextField454 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleComboBox_in_entryRuleComboBox481 = new BitSet(new long[]{0x0000000000000000L});
+    public static final BitSet FOLLOW_EOF_in_entryRuleComboBox488 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ComboBox__Group__0_in_ruleComboBox514 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleCheckBox_in_rule__Widget__Alternatives550 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleRadioButton_in_rule__Widget__Alternatives567 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleTextField_in_rule__Widget__Alternatives584 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleComboBox_in_rule__Widget__Alternatives601 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_STRING_in_rule__EString__Alternatives633 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_RULE_ID_in_rule__EString__Alternatives650 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group__0__Impl_in_rule__PollSystem__Group__0680 = new BitSet(new long[]{0x0000000000000800L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group__1_in_rule__PollSystem__Group__0683 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group__1__Impl_in_rule__PollSystem__Group__1741 = new BitSet(new long[]{0x0000000000001000L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group__2_in_rule__PollSystem__Group__1744 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_11_in_rule__PollSystem__Group__1__Impl772 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group__2__Impl_in_rule__PollSystem__Group__2803 = new BitSet(new long[]{0x000000000000E000L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group__3_in_rule__PollSystem__Group__2806 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_12_in_rule__PollSystem__Group__2__Impl834 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group__3__Impl_in_rule__PollSystem__Group__3865 = new BitSet(new long[]{0x000000000000E000L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group__4_in_rule__PollSystem__Group__3868 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group_3__0_in_rule__PollSystem__Group__3__Impl895 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group__4__Impl_in_rule__PollSystem__Group__4926 = new BitSet(new long[]{0x000000000000E000L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group__5_in_rule__PollSystem__Group__4929 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group_4__0_in_rule__PollSystem__Group__4__Impl956 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group__5__Impl_in_rule__PollSystem__Group__5987 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_13_in_rule__PollSystem__Group__5__Impl1015 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group_3__0__Impl_in_rule__PollSystem__Group_3__01058 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group_3__1_in_rule__PollSystem__Group_3__01061 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_14_in_rule__PollSystem__Group_3__0__Impl1089 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group_3__1__Impl_in_rule__PollSystem__Group_3__11120 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PollSystem__TitleAssignment_3_1_in_rule__PollSystem__Group_3__1__Impl1147 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group_4__0__Impl_in_rule__PollSystem__Group_4__01181 = new BitSet(new long[]{0x0000000000001000L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group_4__1_in_rule__PollSystem__Group_4__01184 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_15_in_rule__PollSystem__Group_4__0__Impl1212 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group_4__1__Impl_in_rule__PollSystem__Group_4__11243 = new BitSet(new long[]{0x0000000000020000L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group_4__2_in_rule__PollSystem__Group_4__11246 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_12_in_rule__PollSystem__Group_4__1__Impl1274 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group_4__2__Impl_in_rule__PollSystem__Group_4__21305 = new BitSet(new long[]{0x0000000000012000L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group_4__3_in_rule__PollSystem__Group_4__21308 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PollSystem__ModelsAssignment_4_2_in_rule__PollSystem__Group_4__2__Impl1335 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group_4__3__Impl_in_rule__PollSystem__Group_4__31365 = new BitSet(new long[]{0x0000000000012000L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group_4__4_in_rule__PollSystem__Group_4__31368 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group_4_3__0_in_rule__PollSystem__Group_4__3__Impl1395 = new BitSet(new long[]{0x0000000000010002L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group_4__4__Impl_in_rule__PollSystem__Group_4__41426 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_13_in_rule__PollSystem__Group_4__4__Impl1454 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group_4_3__0__Impl_in_rule__PollSystem__Group_4_3__01495 = new BitSet(new long[]{0x0000000000020000L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group_4_3__1_in_rule__PollSystem__Group_4_3__01498 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_16_in_rule__PollSystem__Group_4_3__0__Impl1526 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PollSystem__Group_4_3__1__Impl_in_rule__PollSystem__Group_4_3__11557 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__PollSystem__ModelsAssignment_4_3_1_in_rule__PollSystem__Group_4_3__1__Impl1584 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__Group__0__Impl_in_rule__UiModel__Group__01618 = new BitSet(new long[]{0x0000000000020000L});
+    public static final BitSet FOLLOW_rule__UiModel__Group__1_in_rule__UiModel__Group__01621 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__Group__1__Impl_in_rule__UiModel__Group__11679 = new BitSet(new long[]{0x0000000000001000L});
+    public static final BitSet FOLLOW_rule__UiModel__Group__2_in_rule__UiModel__Group__11682 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_17_in_rule__UiModel__Group__1__Impl1710 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__Group__2__Impl_in_rule__UiModel__Group__21741 = new BitSet(new long[]{0x00000000001C2000L});
+    public static final BitSet FOLLOW_rule__UiModel__Group__3_in_rule__UiModel__Group__21744 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_12_in_rule__UiModel__Group__2__Impl1772 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__Group__3__Impl_in_rule__UiModel__Group__31803 = new BitSet(new long[]{0x00000000001C2000L});
+    public static final BitSet FOLLOW_rule__UiModel__Group__4_in_rule__UiModel__Group__31806 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__Group_3__0_in_rule__UiModel__Group__3__Impl1833 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__Group__4__Impl_in_rule__UiModel__Group__41864 = new BitSet(new long[]{0x00000000001C2000L});
+    public static final BitSet FOLLOW_rule__UiModel__Group__5_in_rule__UiModel__Group__41867 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__Group_4__0_in_rule__UiModel__Group__4__Impl1894 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__Group__5__Impl_in_rule__UiModel__Group__51925 = new BitSet(new long[]{0x00000000001C2000L});
+    public static final BitSet FOLLOW_rule__UiModel__Group__6_in_rule__UiModel__Group__51928 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__Group_5__0_in_rule__UiModel__Group__5__Impl1955 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__Group__6__Impl_in_rule__UiModel__Group__61986 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_13_in_rule__UiModel__Group__6__Impl2014 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__Group_3__0__Impl_in_rule__UiModel__Group_3__02059 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_rule__UiModel__Group_3__1_in_rule__UiModel__Group_3__02062 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_18_in_rule__UiModel__Group_3__0__Impl2090 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__Group_3__1__Impl_in_rule__UiModel__Group_3__12121 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__IdAssignment_3_1_in_rule__UiModel__Group_3__1__Impl2148 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__Group_4__0__Impl_in_rule__UiModel__Group_4__02182 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_rule__UiModel__Group_4__1_in_rule__UiModel__Group_4__02185 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_19_in_rule__UiModel__Group_4__0__Impl2213 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__Group_4__1__Impl_in_rule__UiModel__Group_4__12244 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__LaQuestionAssignment_4_1_in_rule__UiModel__Group_4__1__Impl2271 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__Group_5__0__Impl_in_rule__UiModel__Group_5__02305 = new BitSet(new long[]{0x0000000000001000L});
+    public static final BitSet FOLLOW_rule__UiModel__Group_5__1_in_rule__UiModel__Group_5__02308 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_20_in_rule__UiModel__Group_5__0__Impl2336 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__Group_5__1__Impl_in_rule__UiModel__Group_5__12367 = new BitSet(new long[]{0x0000000003A00000L});
+    public static final BitSet FOLLOW_rule__UiModel__Group_5__2_in_rule__UiModel__Group_5__12370 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_12_in_rule__UiModel__Group_5__1__Impl2398 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__Group_5__2__Impl_in_rule__UiModel__Group_5__22429 = new BitSet(new long[]{0x0000000000012000L});
+    public static final BitSet FOLLOW_rule__UiModel__Group_5__3_in_rule__UiModel__Group_5__22432 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__WidgetsAssignment_5_2_in_rule__UiModel__Group_5__2__Impl2459 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__Group_5__3__Impl_in_rule__UiModel__Group_5__32489 = new BitSet(new long[]{0x0000000000012000L});
+    public static final BitSet FOLLOW_rule__UiModel__Group_5__4_in_rule__UiModel__Group_5__32492 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__Group_5_3__0_in_rule__UiModel__Group_5__3__Impl2519 = new BitSet(new long[]{0x0000000000010002L});
+    public static final BitSet FOLLOW_rule__UiModel__Group_5__4__Impl_in_rule__UiModel__Group_5__42550 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_13_in_rule__UiModel__Group_5__4__Impl2578 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__Group_5_3__0__Impl_in_rule__UiModel__Group_5_3__02619 = new BitSet(new long[]{0x0000000003A00000L});
+    public static final BitSet FOLLOW_rule__UiModel__Group_5_3__1_in_rule__UiModel__Group_5_3__02622 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_16_in_rule__UiModel__Group_5_3__0__Impl2650 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__Group_5_3__1__Impl_in_rule__UiModel__Group_5_3__12681 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__UiModel__WidgetsAssignment_5_3_1_in_rule__UiModel__Group_5_3__1__Impl2708 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__CheckBox__Group__0__Impl_in_rule__CheckBox__Group__02742 = new BitSet(new long[]{0x0000000000200000L});
+    public static final BitSet FOLLOW_rule__CheckBox__Group__1_in_rule__CheckBox__Group__02745 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__CheckBox__Group__1__Impl_in_rule__CheckBox__Group__12803 = new BitSet(new long[]{0x0000000000001000L});
+    public static final BitSet FOLLOW_rule__CheckBox__Group__2_in_rule__CheckBox__Group__12806 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_21_in_rule__CheckBox__Group__1__Impl2834 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__CheckBox__Group__2__Impl_in_rule__CheckBox__Group__22865 = new BitSet(new long[]{0x0000000000402000L});
+    public static final BitSet FOLLOW_rule__CheckBox__Group__3_in_rule__CheckBox__Group__22868 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_12_in_rule__CheckBox__Group__2__Impl2896 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__CheckBox__Group__3__Impl_in_rule__CheckBox__Group__32927 = new BitSet(new long[]{0x0000000000402000L});
+    public static final BitSet FOLLOW_rule__CheckBox__Group__4_in_rule__CheckBox__Group__32930 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__CheckBox__Group_3__0_in_rule__CheckBox__Group__3__Impl2957 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__CheckBox__Group__4__Impl_in_rule__CheckBox__Group__42988 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_13_in_rule__CheckBox__Group__4__Impl3016 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__CheckBox__Group_3__0__Impl_in_rule__CheckBox__Group_3__03057 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_rule__CheckBox__Group_3__1_in_rule__CheckBox__Group_3__03060 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_22_in_rule__CheckBox__Group_3__0__Impl3088 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__CheckBox__Group_3__1__Impl_in_rule__CheckBox__Group_3__13119 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__CheckBox__ValueAssignment_3_1_in_rule__CheckBox__Group_3__1__Impl3146 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__RadioButton__Group__0__Impl_in_rule__RadioButton__Group__03180 = new BitSet(new long[]{0x0000000000800000L});
+    public static final BitSet FOLLOW_rule__RadioButton__Group__1_in_rule__RadioButton__Group__03183 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__RadioButton__Group__1__Impl_in_rule__RadioButton__Group__13241 = new BitSet(new long[]{0x0000000000001000L});
+    public static final BitSet FOLLOW_rule__RadioButton__Group__2_in_rule__RadioButton__Group__13244 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_23_in_rule__RadioButton__Group__1__Impl3272 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__RadioButton__Group__2__Impl_in_rule__RadioButton__Group__23303 = new BitSet(new long[]{0x0000000000402000L});
+    public static final BitSet FOLLOW_rule__RadioButton__Group__3_in_rule__RadioButton__Group__23306 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_12_in_rule__RadioButton__Group__2__Impl3334 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__RadioButton__Group__3__Impl_in_rule__RadioButton__Group__33365 = new BitSet(new long[]{0x0000000000402000L});
+    public static final BitSet FOLLOW_rule__RadioButton__Group__4_in_rule__RadioButton__Group__33368 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__RadioButton__Group_3__0_in_rule__RadioButton__Group__3__Impl3395 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__RadioButton__Group__4__Impl_in_rule__RadioButton__Group__43426 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_13_in_rule__RadioButton__Group__4__Impl3454 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__RadioButton__Group_3__0__Impl_in_rule__RadioButton__Group_3__03495 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_rule__RadioButton__Group_3__1_in_rule__RadioButton__Group_3__03498 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_22_in_rule__RadioButton__Group_3__0__Impl3526 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__RadioButton__Group_3__1__Impl_in_rule__RadioButton__Group_3__13557 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__RadioButton__ValueAssignment_3_1_in_rule__RadioButton__Group_3__1__Impl3584 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__TextField__Group__0__Impl_in_rule__TextField__Group__03618 = new BitSet(new long[]{0x0000000001000000L});
+    public static final BitSet FOLLOW_rule__TextField__Group__1_in_rule__TextField__Group__03621 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__TextField__Group__1__Impl_in_rule__TextField__Group__13679 = new BitSet(new long[]{0x0000000000001000L});
+    public static final BitSet FOLLOW_rule__TextField__Group__2_in_rule__TextField__Group__13682 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_24_in_rule__TextField__Group__1__Impl3710 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__TextField__Group__2__Impl_in_rule__TextField__Group__23741 = new BitSet(new long[]{0x0000000000402000L});
+    public static final BitSet FOLLOW_rule__TextField__Group__3_in_rule__TextField__Group__23744 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_12_in_rule__TextField__Group__2__Impl3772 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__TextField__Group__3__Impl_in_rule__TextField__Group__33803 = new BitSet(new long[]{0x0000000000402000L});
+    public static final BitSet FOLLOW_rule__TextField__Group__4_in_rule__TextField__Group__33806 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__TextField__Group_3__0_in_rule__TextField__Group__3__Impl3833 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__TextField__Group__4__Impl_in_rule__TextField__Group__43864 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_13_in_rule__TextField__Group__4__Impl3892 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__TextField__Group_3__0__Impl_in_rule__TextField__Group_3__03933 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_rule__TextField__Group_3__1_in_rule__TextField__Group_3__03936 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_22_in_rule__TextField__Group_3__0__Impl3964 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__TextField__Group_3__1__Impl_in_rule__TextField__Group_3__13995 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__TextField__ValueAssignment_3_1_in_rule__TextField__Group_3__1__Impl4022 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ComboBox__Group__0__Impl_in_rule__ComboBox__Group__04056 = new BitSet(new long[]{0x0000000003A00000L});
+    public static final BitSet FOLLOW_rule__ComboBox__Group__1_in_rule__ComboBox__Group__04059 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ComboBox__Group__1__Impl_in_rule__ComboBox__Group__14117 = new BitSet(new long[]{0x0000000000001000L});
+    public static final BitSet FOLLOW_rule__ComboBox__Group__2_in_rule__ComboBox__Group__14120 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_25_in_rule__ComboBox__Group__1__Impl4148 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ComboBox__Group__2__Impl_in_rule__ComboBox__Group__24179 = new BitSet(new long[]{0x0000000000402000L});
+    public static final BitSet FOLLOW_rule__ComboBox__Group__3_in_rule__ComboBox__Group__24182 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_12_in_rule__ComboBox__Group__2__Impl4210 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ComboBox__Group__3__Impl_in_rule__ComboBox__Group__34241 = new BitSet(new long[]{0x0000000000402000L});
+    public static final BitSet FOLLOW_rule__ComboBox__Group__4_in_rule__ComboBox__Group__34244 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ComboBox__Group_3__0_in_rule__ComboBox__Group__3__Impl4271 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ComboBox__Group__4__Impl_in_rule__ComboBox__Group__44302 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_13_in_rule__ComboBox__Group__4__Impl4330 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ComboBox__Group_3__0__Impl_in_rule__ComboBox__Group_3__04371 = new BitSet(new long[]{0x0000000000000030L});
+    public static final BitSet FOLLOW_rule__ComboBox__Group_3__1_in_rule__ComboBox__Group_3__04374 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_22_in_rule__ComboBox__Group_3__0__Impl4402 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ComboBox__Group_3__1__Impl_in_rule__ComboBox__Group_3__14433 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_rule__ComboBox__ValueAssignment_3_1_in_rule__ComboBox__Group_3__1__Impl4460 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleEString_in_rule__PollSystem__TitleAssignment_3_14499 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleUiModel_in_rule__PollSystem__ModelsAssignment_4_24530 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleUiModel_in_rule__PollSystem__ModelsAssignment_4_3_14561 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleEString_in_rule__UiModel__IdAssignment_3_14592 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleEString_in_rule__UiModel__LaQuestionAssignment_4_14623 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleWidget_in_rule__UiModel__WidgetsAssignment_5_24654 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleWidget_in_rule__UiModel__WidgetsAssignment_5_3_14685 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleEString_in_rule__CheckBox__ValueAssignment_3_14716 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleEString_in_rule__RadioButton__ValueAssignment_3_14747 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleEString_in_rule__TextField__ValueAssignment_3_14778 = new BitSet(new long[]{0x0000000000000002L});
+    public static final BitSet FOLLOW_ruleEString_in_rule__ComboBox__ValueAssignment_3_14809 = new BitSet(new long[]{0x0000000000000002L});
 
 }

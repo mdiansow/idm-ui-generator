@@ -29,6 +29,9 @@ public class PivotMMDslStandaloneSetupGenerated implements ISetup {
 	}
 	
 	public void register(Injector injector) {
+	if (!EPackage.Registry.INSTANCE.containsKey("http://www.istic.fr/idm/PivotMM")) {
+		EPackage.Registry.INSTANCE.put("http://www.istic.fr/idm/PivotMM", fr.istic.idm.pivotMM.PivotMMPackage.eINSTANCE);
+	}
 
 		org.eclipse.xtext.resource.IResourceFactory resourceFactory = injector.getInstance(org.eclipse.xtext.resource.IResourceFactory.class);
 		org.eclipse.xtext.resource.IResourceServiceProvider serviceProvider = injector.getInstance(org.eclipse.xtext.resource.IResourceServiceProvider.class);

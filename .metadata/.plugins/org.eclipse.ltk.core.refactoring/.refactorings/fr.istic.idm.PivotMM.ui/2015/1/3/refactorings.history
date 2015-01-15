@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;QuestionnaireDsl.xtext&apos; to &apos;fr.istic.idm.Questionnaire&apos;&#x0A;- Original project: &apos;fr.istic.idm.PivotMM.ui&apos;&#x0A;- Destination element: &apos;fr.istic.idm.Questionnaire&apos;&#x0A;- Original element: &apos;QuestionnaireDsl.xtext&apos;&#x0A;- Update references to refactored element" description="Move file" destination="=fr.istic.idm.Questionnaire" element1="QuestionnaireDsl.xtext" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1421352189096" units="0" version="1.0"/>
+</session>

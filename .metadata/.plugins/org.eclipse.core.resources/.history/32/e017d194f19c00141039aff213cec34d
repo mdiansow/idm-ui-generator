@@ -1,0 +1,27 @@
+grammar fr.istic.idm.QuestionnaireDsl with org.eclipse.xtext.common.Terminals
+
+generate questionnaireDsl "http://www.istic.fr/idm/QuestionnaireDsl"
+
+Sondage:
+	'Sondage ' '{'
+		(sondage+=Questionnaire)+
+'}'
+;
+
+Questionnaire:
+	'Questionnaire ' name=ID '{'
+		(questionnaire+=Question)*
+	'}'
+;
+
+Question:
+	'Question ' name=ID '{'
+		text=STRING
+		question+=Option
+	'}'
+;
+
+Option:
+	'Options'
+		(ID ':' text+=STRING)+
+;

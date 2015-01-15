@@ -1,0 +1,51 @@
+package m2mplugin
+
+import fr.istic.idm.questionnaireDsl.Questionnaire
+import fr.istic.idm.pivotMM.PollSystem
+
+class GenerateUI {
+	def toHtml(PollSystem pollS) '''
+		<html>
+		<body>
+		<h1 style="color:rouge">
+			Le questionnaire sur «pollS.title»
+		</h1>
+		«FOR p : pollS.models»
+			«IF p.id != null»
+				<h4>Question n° «p.id» : «p.laQuestion»
+				«FOR o : p.widgets»
+					«o.eClass.name»
+					«o.value»
+				«ENDFOR»
+			«ENDIF»
+		«««			«FOR q : p.question»
+«««				<h2 style color:«q.text»">
+«««				«q.wording»
+«««				</h2>
+«««				«IF q instanceof RadioButtonQuestion»
+«««					<form action="">
+«««					«FOR o : (q as RadioButtonQuestion).options»
+«««						<input type="radio" 
+«««							name="answer"
+«««							value="«o.wording»">
+«««							<span style="color:«o.color»">«o.wording»</span>
+«««						<br>
+«««					«ENDFOR»
+«««				«ELSE»
+«««					<form action="">
+«««					<select list=options>
+«««					<datalist id=options>
+«««					«FOR o : (q as ComboBoxQuestion).options»
+«««						<option> «o»
+«««					«ENDFOR»
+«««					</datalist>
+«««					</select>
+«««				«ENDIF»
+«««			«ENDFOR»
+		«ENDFOR»
+		<button type="button">Sousmettre</button>
+		</body>
+		</html>
+		
+	'''
+}

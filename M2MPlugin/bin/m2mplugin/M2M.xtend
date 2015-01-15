@@ -1,20 +1,22 @@
 package m2mplugin
 
 import fr.istic.idm.CssDslStandaloneSetupGenerated
+import fr.istic.idm.PivotMMDslStandaloneSetupGenerated
 import fr.istic.idm.QuestionnaireDslStandaloneSetupGenerated
 import fr.istic.idm.cssDsl.Css
+import fr.istic.idm.pivotMM.PivotMMFactory
+import fr.istic.idm.pivotMM.PollSystem
+import fr.istic.idm.pivotMM.Widget
+import fr.istic.idm.pivotMM.impl.PivotMMFactoryImpl
 import fr.istic.idm.questionnaireDsl.Sondage
 import java.util.HashMap
 import org.eclipse.emf.common.util.URI
 import org.eclipse.emf.ecore.resource.Resource
 import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl
 import org.junit.Test
-import pivotMM.PivotMMFactory
-import pivotMM.PollSystem
-import pivotMM.Widget
-import pivotMM.impl.PivotMMFactoryImpl
 
 import static org.junit.Assert.*
+import java.io.FileWriter
 
 class M2M {
 	def loadQuestionnaireDsl(URI uri) {
@@ -35,6 +37,27 @@ class M2M {
 		rs.save(new HashMap());
 	}
 
+	def loadPivotMM(URI uri) {
+		new PivotMMDslStandaloneSetupGenerated().createInjectorAndDoEMFRegistration()
+		var res = new ResourceSetImpl().getResource(uri, true)
+		res.contents.get(0) as PollSystem
+	}
+
+	//	def EPackage loadModel(String path) {
+	//
+	//		//Load Ecore Model
+	//		var fact = new EcoreResourceFactoryImpl
+	//		if (!EPackage.Registry.INSTANCE.containsKey(EcorePackage.eNS_URI)) {
+	//			EPackage.Registry.INSTANCE.put(EcorePackage.eNS_URI, EcorePackage.eINSTANCE);
+	//		}
+	//		Resource.Factory.Registry.INSTANCE.getExtensionToFactoryMap().put("pivot", fact);
+	//		var rs = new ResourceSetImpl()
+	//		var uri = URI.createURI(path);
+	//		var res = rs.getResource(uri, true);
+	//		var EPackage p = res.contents.get(0) as EPackage
+	//		return p;
+	//
+	//	}
 	@Test
 	def void loadTest() {
 
@@ -86,6 +109,16 @@ class M2M {
 		//		modelImpl.widgets.add(wid)
 		//
 		savePollSystem(URI::createURI("./Model.xmi"), modelImpl)
+		var pollS = loadPivotMM(URI::createURI("./Model.xmi"))
+		println("Title\t" + pollS.title)
+
+		val html = new GenerateUI
+		val file = html.toHtml(pollS)
+
+		println("\n\n\tHTML"+file.toString)
+		val fw = new FileWriter("questionnaire.html")
+		fw.write(file.toString)
+		fw.close
 
 	//
 	//		//check.var string = css.css.get(0);

@@ -1,0 +1,141 @@
+package m2mplugin
+
+import fr.istic.idm.CssDslStandaloneSetupGenerated
+import fr.istic.idm.QuestionnaireDslStandaloneSetupGenerated
+import fr.istic.idm.cssDsl.Css
+import fr.istic.idm.questionnaireDsl.Sondage
+import java.util.HashMap
+import org.eclipse.emf.common.util.URI
+import org.eclipse.emf.ecore.resource.Resource
+import org.eclipse.emf.ecore.resource.impl.ResourceSetImpl
+import org.junit.Test
+import pivotMM.PivotMMFactory
+import pivotMM.PollSystem
+import pivotMM.Widget
+import pivotMM.impl.PivotMMFactoryImpl
+
+import static org.junit.Assert.*
+import org.eclipse.emf.ecore.EPackage
+import org.eclipse.emf.ecore.xmi.impl.EcoreResourceFactoryImpl
+import org.eclipse.emf.ecore.EcorePackage
+import pivotMM.PivotMMPackage
+
+class M2M {
+	def loadQuestionnaireDsl(URI uri) {
+		new QuestionnaireDslStandaloneSetupGenerated().createInjectorAndDoEMFRegistration()
+		var res = new ResourceSetImpl().getResource(uri, true);
+		res.contents.get(0) as Sondage
+	}
+
+	def loadCssDsl(URI uri) {
+		new CssDslStandaloneSetupGenerated().createInjectorAndDoEMFRegistration()
+		var res = new ResourceSetImpl().getResource(uri, true)
+		res.contents.get(0) as Css
+	}
+
+	def savePollSystem(URI uri, PollSystem pollS) {
+		var Resource rs = new ResourceSetImpl().createResource(uri);
+		rs.getContents.add(pollS);
+		rs.save(new HashMap());
+	}
+	
+	def loadPivotMM(URI uri){
+//		new Pivotm
+//		new CssDslStandaloneSetupGenerated().createInjectorAndDoEMFRegistration()
+//		var res = new ResourceSetImpl().getResource(uri, true)
+//		res.contents.get(0) as PivotMMFactory
+	}
+
+//	def EPackage loadModel(String path) {
+//
+//		//Load Ecore Model
+//		var fact = new EcoreResourceFactoryImpl
+//		if (!EPackage.Registry.INSTANCE.containsKey(EcorePackage.eNS_URI)) {
+//			EPackage.Registry.INSTANCE.put(EcorePackage.eNS_URI, EcorePackage.eINSTANCE);
+//		}
+//		Resource.Factory.Registry.INSTANCE.getExtensionToFactoryMap().put("pivot", fact);
+//		var rs = new ResourceSetImpl()
+//		var uri = URI.createURI(path);
+//		var res = rs.getResource(uri, true);
+//		var EPackage p = res.contents.get(0) as EPackage
+//		return p;
+//
+//	}
+
+	@Test
+	def void loadTest() {
+
+		// Récupération du sondage.
+		var q = loadQuestionnaireDsl(URI.createURI("sample.q"))
+		assertNotNull(q)
+
+		val css = loadCssDsl(URI.createURI("sample.css"));
+		assertNotNull(css);
+
+		val model = new PivotMMFactoryImpl
+		val modelImpl = model.createPollSystem
+
+		// Questionnaire à la position 0
+		val questionnaire = q.sondage.get(0)
+		modelImpl.title = questionnaire.name // id du questionnaire
+
+		questionnaire.questionnaire.forEach [ p |
+			val qName = p.name
+			val cssValue = css.css.findFirst[c|c.id.equals(qName)]
+			println("La question \t" + p.text)
+			// Création du questionnaire UI
+			val uimodel = model.createUiModel
+			uimodel.id = p.name
+			uimodel.laQuestion = p.text // la question
+			// Création de la question dans un string
+			val question = p.question
+			question.forEach [ opt |
+				println("ID " + cssValue.id + "\t" + cssValue.value)
+				val rep = opt.text
+				rep.forEach [ text |
+					println("\tRéponse \t" + text)
+					// Récupération du type de widget.
+					val widgetType = getWidgetType(cssValue.value, model)
+					assertNotNull(widgetType)
+					// les valeurs des options
+					widgetType.value = text
+					uimodel.widgets.add(widgetType)
+				]
+			]
+			modelImpl.models.add(uimodel)
+		]
+
+		//
+		//		q.sondage.forEach[monQ|println("Questionnaire  " + monQ.name)]
+		//
+		//		val Widget wid = model.createCheckBox
+		//		wid.setValue("Bonjour")
+		//		modelImpl.widgets.add(wid)
+		//
+		savePollSystem(URI::createURI("./Model.xmi"), modelImpl)
+
+	//
+	//		//check.var string = css.css.get(0);
+	//		val monCss = new CssDslFactoryImpl
+	//		val v = monCss.createCss
+	//		val monCh = monCss.createWidget
+	//		v.css.add(monCh)
+	}
+
+	def Widget getWidgetType(String name, PivotMMFactory pivot) {
+
+		//	'CheckBox' | 'ComboBox' | 'TextField' | 'RadioButton'
+		switch (name) {
+			case "CheckBox":
+				return pivot.createCheckBox
+			case "ComboBox":
+				return pivot.createComboBox
+			case "TextField":
+				return pivot.createTextField
+			case "RadioButton":
+				return pivot.createRadioButton
+			default:
+				return pivot.createTextField
+		}
+	}
+}

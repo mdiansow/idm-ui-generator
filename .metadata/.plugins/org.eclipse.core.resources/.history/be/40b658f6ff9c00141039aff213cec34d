@@ -1,0 +1,79 @@
+package m2mplugin
+
+import fr.istic.idm.pivotMM.PollSystem
+import fr.istic.idm.pivotMM.Widget
+import fr.istic.idm.pivotMM.CheckBox
+import fr.istic.idm.pivotMM.UiModel
+import fr.istic.idm.pivotMM.RadioButton
+import fr.istic.idm.pivotMM.TextField
+
+class GenerateUI {
+	def toHtml(PollSystem pollS) '''
+		<html>
+		<head>
+			<title>«pollS.title»</title>
+		</head>
+		<body>
+		<h1 style="color:rouge">
+			Le questionnaire sur «pollS.title»
+		</h1>
+		«FOR p : pollS.models»
+			«IF p.id != null»
+				<h4>Question n° «p.id» : «p.laQuestion»</h4>
+«««				CheckBox
+				«IF p.widgets.get(0) instanceof CheckBox»
+					«FOR o : p.widgets»
+						<INPUT type="«o.eClass.name»" name="«o.value»">«o.value»
+					«ENDFOR»
+				«ENDIF»
+«««				TextField
+				«IF p.widgets.get(0) instanceof TextField»
+					<P>				
+					«FOR o : p.widgets»
+						«o.value» : <input name="«o.value»"> <br/>
+					«ENDFOR»	
+					<P>						
+
+				«ENDIF»
+«««				RadioButton
+				«IF p.widgets.get(0) instanceof RadioButton»
+					<select name="widget">
+					«FOR o : p.widgets»
+						<option>«o.value»
+					«ENDFOR»
+					</select>		
+				«ENDIF»
+			«ENDIF»
+		«ENDFOR»
+		<button type="button">Sousmettre</button>
+		</body>
+		</html>
+		
+	'''
+
+	def toCheckBox(UiModel model) {
+		val name = model.widgets.get(0).eClass.name
+		switch (name) {
+			case "CheckBox": {
+				return null
+			}
+		}
+	}
+
+	def getUiType(Widget w) {
+		//	'CheckBox' | 'ComboBox' | 'TextField' | 'RadioButton'
+		//		switch (w) {
+		//			case CheckBox: {
+		//				return null
+		//			}
+		//			case "ComboBox":
+		//				return
+		//			case "TextField":
+		//				return pivot.createTextField
+		//			case "RadioButton":
+		//				return pivot.createRadioButton
+		//			default:
+		//				return pivot.createTextField
+		//		}
+	}
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/fr.istic.idm.PivotMM/src-gen" editDirectory="/fr.istic.idm.PivotMM.edit/src"
+    editorDirectory="/fr.istic.idm.PivotMM.editor/src" modelPluginID="fr.istic.idm.PivotMM"
+    forceOverwrite="true" modelName="PivotMMDsl" updateClasspath="false" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    complianceLevel="5.0" copyrightFields="false" editPluginID="fr.istic.idm.PivotMM.edit"
+    editorPluginID="fr.istic.idm.PivotMM.editor" runtimeVersion="2.10">
+  <genPackages prefix="PivotMM" basePackage="fr.istic.idm" disposableProviderFactory="true"
+      fileExtensions="pivot" ecorePackage="PivotMMDsl.ecore#/">
+    <genClasses ecoreClass="PivotMMDsl.ecore#//PollSystem">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute PivotMMDsl.ecore#//PollSystem/title"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference PivotMMDsl.ecore#//PollSystem/models"/>
+    </genClasses>
+    <genClasses ecoreClass="PivotMMDsl.ecore#//Widget">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute PivotMMDsl.ecore#//Widget/value"/>
+    </genClasses>
+    <genClasses ecoreClass="PivotMMDsl.ecore#//UiModel">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute PivotMMDsl.ecore#//UiModel/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute PivotMMDsl.ecore#//UiModel/laQuestion"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference PivotMMDsl.ecore#//UiModel/widgets"/>
+    </genClasses>
+    <genClasses ecoreClass="PivotMMDsl.ecore#//CheckBox"/>
+    <genClasses ecoreClass="PivotMMDsl.ecore#//RadioButton"/>
+    <genClasses ecoreClass="PivotMMDsl.ecore#//TextField"/>
+    <genClasses ecoreClass="PivotMMDsl.ecore#//ComboBox"/>
+  </genPackages>
+</genmodel:GenModel>

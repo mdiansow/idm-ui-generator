@@ -6,14 +6,10 @@
 <item elementID="=PivotMM.editor" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=M2MPlugin" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=PivotMM.tests" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fr.istic.idm.Questionnaire.sdk" type="4"/>
 <item elementID="=PivotMM" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=fr.istic.idm.Questionnaire.tests" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=fr.istic.idm.Questionnaire.ui" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=PivotMM.edit" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=fr.istic.idm.Css" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=fr.istic.idm.Css.tests" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=fr.istic.idm.Questionnaire" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1418398095525_0" label="Window Working Set" name="Aggregate for window 1418398095524"/>
 <mruList name="idm_project"/>

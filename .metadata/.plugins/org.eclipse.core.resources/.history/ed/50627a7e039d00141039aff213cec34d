@@ -1,0 +1,23 @@
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+/**
+ * 
+ */
+
+/**
+ * @author mds
+ *
+ */
+public class Fenetre {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+			JPanel panel = new JPanel();
+			panel.add(new JTextField("Text field"));
+	}
+
+}
